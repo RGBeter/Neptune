@@ -7099,7 +7099,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 05b994d8-5f1a-47d7-827c-34b00c7e6b2a)
   )
-  (text "TMPC 0503H-4R7MG-D" (at 117.475 236.855 0)
+  (text "TMPC 0503H-4R7MG-D" (at 118.745 235.585 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 06bb2d75-0e21-48a1-8330-ff95663df7ed)
   )
@@ -8706,11 +8706,11 @@
     (property "Sim.Enable" "0" (at 557.53 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid d1c3c507-9d78-4d3b-9dbc-d6c026f974cf))
-    (pin "" (uuid d1c3c507-9d78-4d3b-9dbc-d6c026f974cf))
-    (pin "" (uuid d1c3c507-9d78-4d3b-9dbc-d6c026f974cf))
-    (pin "" (uuid d1c3c507-9d78-4d3b-9dbc-d6c026f974cf))
-    (pin "" (uuid d1c3c507-9d78-4d3b-9dbc-d6c026f974cf))
+    (pin "" (uuid d1c3c507-9d78-4d3b-9dbc-d6c026f974d3))
+    (pin "" (uuid d1c3c507-9d78-4d3b-9dbc-d6c026f974d3))
+    (pin "" (uuid d1c3c507-9d78-4d3b-9dbc-d6c026f974d3))
+    (pin "" (uuid d1c3c507-9d78-4d3b-9dbc-d6c026f974d3))
+    (pin "" (uuid d1c3c507-9d78-4d3b-9dbc-d6c026f974d3))
     (instances
       (project "Neptune"
         (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
@@ -11988,10 +11988,10 @@
   (symbol (lib_id "Device:L") (at 128.27 243.205 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce186b5c-a12d-47f8-8070-eb9155ea787d)
-    (property "Reference" "L1" (at 128.27 238.125 90)
+    (property "Reference" "L1" (at 128.27 237.49 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "4.7u" (at 128.27 240.665 90)
+    (property "Value" "4.7u" (at 128.27 240.03 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Inductor_SMD:L_Murata_LQH55DN_5.7x5.0mm" (at 128.27 243.205 0)
@@ -12010,7 +12010,7 @@
       )
       (project "Neptune"
         (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
-          (reference "L1") (unit 1)
+          (reference "L801") (unit 1)
         )
       )
     )
