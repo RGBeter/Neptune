@@ -2772,11 +2772,11 @@
         )
       )
     )
-    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
+    (symbol "MegaDrive:VCC1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR01" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "+5V" (at 0 3.556 0)
+      (property "Value" "VCC1" (at 0 4.445 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -2788,10 +2788,10 @@
       (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"VCC\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "+5V_0_1"
+      (symbol "VCC1_0_1"
         (polyline
           (pts
             (xy -0.762 1.27)
@@ -2817,9 +2817,9 @@
           (fill (type none))
         )
       )
-      (symbol "+5V_1_1"
+      (symbol "VCC1_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+5V" (effects (font (size 1.27 1.27))))
+          (name "VCC1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -10279,31 +10279,6 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 294.005 231.14 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 13d3a700-a32c-4142-8c1b-9ae14b77d793)
-    (property "Reference" "#PWR081" (at 294.005 234.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 294.005 226.06 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 294.005 231.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 294.005 231.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 96dd8fbf-a241-4202-86f3-bd92ebbaaf6d))
-    (instances
-      (project "Neptune"
-        (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/e4c57f96-d802-4292-9df6-7ff62ef14a9e"
-          (reference "#PWR081") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND2") (at 144.78 45.085 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d328716-c4c4-4622-bfe3-8b0bdf661fb1)
@@ -10952,6 +10927,34 @@
         )
         (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/e4c57f96-d802-4292-9df6-7ff62ef14a9e"
           (reference "#PWR062") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MegaDrive:VCC1") (at 294.005 231.14 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 41317051-2eca-4614-9ba4-195dd07febea)
+    (property "Reference" "#PWR0159" (at 294.005 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC1" (at 294.005 226.695 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 294.005 231.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 294.005 231.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ebdf1ba3-9d7e-4326-b5d6-6fe8807072ae))
+    (instances
+      (project "Neptune"
+        (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
+          (reference "#PWR0159") (unit 1)
+        )
+        (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/e4c57f96-d802-4292-9df6-7ff62ef14a9e"
+          (reference "#PWR081") (unit 1)
         )
       )
     )
