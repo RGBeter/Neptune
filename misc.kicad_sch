@@ -9818,11 +9818,11 @@
     (property "Sim.Enable" "0" (at 557.53 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid d1c3c507-9d78-4d3b-9dbc-d6c026f9750f))
-    (pin "" (uuid d1c3c507-9d78-4d3b-9dbc-d6c026f9750f))
-    (pin "" (uuid d1c3c507-9d78-4d3b-9dbc-d6c026f9750f))
-    (pin "" (uuid d1c3c507-9d78-4d3b-9dbc-d6c026f9750f))
-    (pin "" (uuid d1c3c507-9d78-4d3b-9dbc-d6c026f9750f))
+    (pin "" (uuid d1c3c507-9d78-4d3b-9dbc-d6c026f97513))
+    (pin "" (uuid d1c3c507-9d78-4d3b-9dbc-d6c026f97513))
+    (pin "" (uuid d1c3c507-9d78-4d3b-9dbc-d6c026f97513))
+    (pin "" (uuid d1c3c507-9d78-4d3b-9dbc-d6c026f97513))
+    (pin "" (uuid d1c3c507-9d78-4d3b-9dbc-d6c026f97513))
     (instances
       (project "Neptune"
         (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
