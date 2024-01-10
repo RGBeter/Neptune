@@ -4612,7 +4612,7 @@
     (property "Value" "10uF" (at 316.23 158.496 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (at 310.1848 159.766 0)
+    (property "Footprint" "Neptune:CP_Radial_D5.0mm_P2.50mm_Horizontal" (at 310.1848 159.766 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 311.15 155.956 0)
