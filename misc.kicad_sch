@@ -4398,6 +4398,10 @@
     (uuid 1234815d-7f6c-470d-af70-8a6226db1c87)
   )
 
+  (wire (pts (xy 44.45 215.9) (xy 44.45 220.345))
+    (stroke (width 0) (type default))
+    (uuid 13012ef5-560b-4d70-89f2-d929d7733e0d)
+  )
   (wire (pts (xy 302.26 111.76) (xy 299.72 111.76))
     (stroke (width 0) (type default))
     (uuid 131036b3-88f6-4da3-9819-ccf664ef5a31)
@@ -7910,7 +7914,7 @@
   (symbol (lib_id "74xx:74LS241_Split") (at 361.315 238.125 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07f50c24-dbd1-45e3-ba3f-6f1bcec34ec9)
-    (property "Reference" "IC401" (at 361.315 229.87 0)
+    (property "Reference" "IC601" (at 361.315 229.87 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74ACT241" (at 361.315 232.41 0)
@@ -7945,7 +7949,7 @@
     (instances
       (project "Neptune"
         (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
-          (reference "IC401") (unit 1)
+          (reference "IC601") (unit 1)
         )
       )
     )
@@ -7954,7 +7958,7 @@
   (symbol (lib_id "74xx:74LS241_Split") (at 333.375 238.125 0) (unit 8)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 082619a3-7ad3-4299-8bba-3275bbfed77a)
-    (property "Reference" "IC401" (at 333.375 229.87 0)
+    (property "Reference" "IC601" (at 333.375 229.87 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74ACT241" (at 333.375 232.41 0)
@@ -7989,7 +7993,7 @@
     (instances
       (project "Neptune"
         (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
-          (reference "IC401") (unit 8)
+          (reference "IC601") (unit 8)
         )
       )
     )
@@ -8569,10 +8573,10 @@
   (symbol (lib_id "Device:D") (at 38.735 220.345 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 30d41504-7f33-460a-a7a6-1bfc8c5d1df2)
-    (property "Reference" "D801" (at 37.465 214.63 0)
+    (property "Reference" "D801" (at 36.195 214.63 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "3A RECT" (at 37.465 217.17 0)
+    (property "Value" "3A RECT" (at 34.29 217.17 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Diode_SMD:D_SOD-128" (at 38.735 220.345 0)
@@ -9032,10 +9036,10 @@
   (symbol (lib_id "74xx:74LS241_Split") (at 361.315 224.155 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ad81dc8-5f1a-494c-9cf6-5d75b8e06a6d)
-    (property "Reference" "IC401" (at 361.315 215.265 0)
+    (property "Reference" "IC601" (at 361.315 215.9 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74ACT241" (at 361.315 217.805 0)
+    (property "Value" "74ACT241" (at 361.315 218.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" (at 361.315 224.155 0)
@@ -9067,7 +9071,7 @@
     (instances
       (project "Neptune"
         (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
-          (reference "IC401") (unit 3)
+          (reference "IC601") (unit 3)
         )
       )
     )
@@ -9247,7 +9251,7 @@
   (symbol (lib_id "74xx:74LS241_Split") (at 280.67 214.63 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5625db72-6745-4952-b242-134cb76f7029)
-    (property "Reference" "IC401" (at 280.67 205.74 0)
+    (property "Reference" "IC601" (at 280.67 205.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74ACT241" (at 280.67 208.28 0)
@@ -9282,7 +9286,7 @@
     (instances
       (project "Neptune"
         (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
-          (reference "IC401") (unit 5)
+          (reference "IC601") (unit 5)
         )
       )
     )
@@ -9310,6 +9314,31 @@
       (project "Neptune"
         (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
           (reference "EM24") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint_Alt") (at 44.45 215.9 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5a60fe56-b999-4b10-9a96-abc51d82db36)
+    (property "Reference" "TP2" (at 46.99 211.328 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "+9V" (at 46.99 213.868 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" (at 49.53 215.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 49.53 215.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3936dfec-1e97-4131-b518-db6f71adda8d))
+    (instances
+      (project "Neptune"
+        (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
+          (reference "TP2") (unit 1)
         )
       )
     )
@@ -9993,10 +10022,10 @@
   (symbol (lib_id "74xx:74LS241_Split") (at 333.375 210.185 0) (unit 7)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d42a681-5f88-4f44-9f65-51a7592be3f5)
-    (property "Reference" "IC401" (at 333.375 201.295 0)
+    (property "Reference" "IC601" (at 333.375 201.93 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74ACT241" (at 333.375 203.835 0)
+    (property "Value" "74ACT241" (at 333.375 204.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" (at 333.375 210.185 0)
@@ -10028,7 +10057,7 @@
     (instances
       (project "Neptune"
         (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
-          (reference "IC401") (unit 7)
+          (reference "IC601") (unit 7)
         )
       )
     )
@@ -10373,10 +10402,10 @@
   (symbol (lib_id "74xx:74LS241_Split") (at 333.375 224.155 0) (unit 6)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a21c7d0a-4331-4c5a-b82c-3f9b7d389952)
-    (property "Reference" "IC401" (at 333.375 215.265 0)
+    (property "Reference" "IC601" (at 333.375 215.9 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74ACT241" (at 333.375 217.805 0)
+    (property "Value" "74ACT241" (at 333.375 218.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" (at 333.375 224.155 0)
@@ -10408,7 +10437,7 @@
     (instances
       (project "Neptune"
         (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
-          (reference "IC401") (unit 6)
+          (reference "IC601") (unit 6)
         )
       )
     )
@@ -10573,7 +10602,7 @@
   (symbol (lib_id "74xx:74LS241_Split") (at 280.67 198.755 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa534655-9075-44eb-9d1d-329a9ff7d67d)
-    (property "Reference" "IC401" (at 280.67 190.5 0)
+    (property "Reference" "IC601" (at 280.67 190.5 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74ACT241" (at 280.67 193.04 0)
@@ -10608,7 +10637,7 @@
     (instances
       (project "Neptune"
         (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
-          (reference "IC401") (unit 4)
+          (reference "IC601") (unit 4)
         )
       )
     )
@@ -10785,10 +10814,10 @@
   (symbol (lib_id "74xx:74LS241_Split") (at 360.68 210.185 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b38ea2e5-0d48-4507-903b-4efdf570aaec)
-    (property "Reference" "IC401" (at 360.68 201.295 0)
+    (property "Reference" "IC601" (at 360.68 201.93 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74ACT241" (at 360.68 203.835 0)
+    (property "Value" "74ACT241" (at 360.68 204.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" (at 360.68 210.185 0)
@@ -10820,7 +10849,7 @@
     (instances
       (project "Neptune"
         (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
-          (reference "IC401") (unit 2)
+          (reference "IC601") (unit 2)
         )
       )
     )
@@ -11025,7 +11054,7 @@
   (symbol (lib_id "74xx:74LS241_Split") (at 280.67 252.095 0) (unit 9)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c30088db-1cb9-4cee-b2fb-43cd09144d58)
-    (property "Reference" "IC401" (at 287.02 250.825 0)
+    (property "Reference" "IC601" (at 287.02 250.825 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74ACT241" (at 287.02 253.365 0)
@@ -11060,7 +11089,7 @@
     (instances
       (project "Neptune"
         (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
-          (reference "IC401") (unit 9)
+          (reference "IC601") (unit 9)
         )
       )
     )
@@ -11427,7 +11456,7 @@
   (symbol (lib_id "Device:C") (at 264.16 252.095 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d8fe7701-4034-49b0-9e23-8948353cf20b)
-    (property "Reference" "C401" (at 267.97 250.825 0)
+    (property "Reference" "C601" (at 267.97 250.825 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22nF" (at 267.97 253.365 0)
@@ -11444,7 +11473,7 @@
     (instances
       (project "Neptune"
         (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
-          (reference "C401") (unit 1)
+          (reference "C601") (unit 1)
         )
       )
     )
