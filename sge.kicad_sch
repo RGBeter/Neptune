@@ -4791,7 +4791,7 @@
     (property "Value" "315-5660" (at 215.265 130.81 0)
       (effects (font (size 5 5)))
     )
-    (property "Footprint" "Package_QFP:LQFP-208_28x28mm_P0.5mm" (at 212.09 135.89 0)
+    (property "Footprint" "Neptune:QFP-208_28x28_Pitch0.5mm" (at 212.09 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 243.84 287.02 0)
