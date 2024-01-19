@@ -11688,10 +11688,10 @@
   (symbol (lib_id "Connector:Barrel_Jack") (at 24.765 222.885 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3fa85a5-5049-4a66-ab04-35f1c5b2bb25)
-    (property "Reference" "J1" (at 24.765 213.995 0)
+    (property "Reference" "CN7" (at 24.765 214.63 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Barrel_Jack" (at 24.765 216.535 0)
+    (property "Value" "Barrel_Jack" (at 24.765 217.17 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Neptune:Power_Jack" (at 26.035 223.901 0)
@@ -11708,7 +11708,7 @@
     (instances
       (project "Neptune"
         (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
-          (reference "J1") (unit 1)
+          (reference "CN7") (unit 1)
         )
       )
     )
