@@ -1,0 +1,83 @@
+
+(rules PCB Neptune-32x-315-5818-bypass
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (eu.mihosoft.freerouting.autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 497)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+  )
+  (rule
+    (width 127.0)
+    (clear 120.2)
+    (clear 63.5 (type smd_to_turn_gap))
+    (clear 30.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 127.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "unconnected-(IC1A-CH0-Pad2)" "unconnected-(IC1A-CH1-Pad3)" VA19 VA20 VA21 "unconnected-(IC1A-~{CART}-Pad7)" "unconnected-(IC1A-KILL-Pad8)" "unconnected-(IC1A-CKIO-Pad33)"
+    "unconnected-(IC1A-VA18-Pad67)" "unconnected-(IC1A-VA17-Pad68)" "unconnected-(IC1A-VA16-Pad69)" "unconnected-(IC1A-VA15-Pad70)" "unconnected-(IC1A-VA14-Pad71)" "unconnected-(IC1A-VA13-Pad72)" "unconnected-(IC1A-VA12-Pad73)" "unconnected-(IC1A-VA11-Pad74)"
+    "unconnected-(IC1A-VA10-Pad75)" "unconnected-(IC1A-VA9-Pad76)" "unconnected-(IC1A-VA8-Pad77)" "unconnected-(IC1A-VA7-Pad78)" "unconnected-(IC1A-VA6-Pad79)" "unconnected-(IC1A-VA5-Pad80)" "unconnected-(IC1A-VA4-Pad81)" "unconnected-(IC1A-VA3-Pad82)"
+    "unconnected-(IC1A-VA2-Pad83)" "unconnected-(IC1A-VA1-Pad84)" VD7 VD0 VD8 VD6 VD1 VD9
+    VD5 VD2 VD10 VD4 VD3 VD11 "unconnected-(IC1A-~{MRES}-Pad100)" "unconnected-(IC1A-VA22-Pad104)"
+    "unconnected-(IC1A-VA23-Pad105)" ~{CCAS0} ~{CCE0} "unconnected-(IC1A-~{AS}-Pad108)" "unconnected-(IC1A-~{DTAK}-Pad109)" "unconnected-(IC1A-VCLK-Pad112)" ~{CCAS2} VD15
+    VD14 VD13 VD12 ~{CASEL} "unconnected-(IC1A-~{VRES}-Pad119)" ~{CLWR} "unconnected-(IC1A-~{UWR}-Pad121)" "unconnected-(IC1A-~{OUWE}-Pad128)"
+    "unconnected-(IC1A-AVDD-Pad129)" "unconnected-(IC1A-AGND-Pad130)" "unconnected-(IC1A-~{SEL}-Pad151)" "unconnected-(IC1A-CHPLL-Pad152)" "unconnected-(IC1A-BUNRI-Pad153)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 127.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
