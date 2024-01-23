@@ -8831,8 +8831,8 @@
     (property "DigiKey" "493-13447-1-ND" (at 128.905 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bdeb54f8-7866-4245-b25a-77af64c0a124))
-    (pin "2" (uuid 0bb6f399-85fc-4d5c-a2ca-6842e0afb5ab))
+    (pin "1" (uuid d83c015e-4e97-47a1-84a8-1a6ed30da82e))
+    (pin "2" (uuid 98a2dac4-4503-49b5-973c-dcae0827c650))
     (instances
       (project "Neptune"
         (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
