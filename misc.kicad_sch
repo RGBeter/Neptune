@@ -8256,10 +8256,10 @@
   (symbol (lib_id "Device:R") (at 45.085 88.9 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f0cddcc-6a53-4f5f-b0fb-59b821ed0544)
-    (property "Reference" "R63" (at 45.085 92.71 90)
+    (property "Reference" "R83" (at 45.085 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "R" (at 45.085 95.25 90)
+    (property "Value" "0" (at 45.085 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 45.085 87.122 90)
@@ -8276,7 +8276,7 @@
     (instances
       (project "Neptune"
         (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
-          (reference "R63") (unit 1)
+          (reference "R83") (unit 1)
         )
       )
     )
@@ -11141,10 +11141,10 @@
   (symbol (lib_id "Device:R") (at 45.085 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid acfc4a0a-8a36-4d48-a78b-2bedc799580e)
-    (property "Reference" "R62" (at 45.085 80.01 90)
+    (property "Reference" "R82" (at 45.085 80.01 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "R" (at 45.085 82.55 90)
+    (property "Value" "0" (at 45.085 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 45.085 88.138 90)
@@ -11161,7 +11161,7 @@
     (instances
       (project "Neptune"
         (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/01513199-62c5-4123-a151-ccd381a5e6c1"
-          (reference "R62") (unit 1)
+          (reference "R82") (unit 1)
         )
       )
     )
