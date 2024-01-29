@@ -41,8 +41,14 @@ the "Specify location" option for this when ordering. If using another service
 you may wish to remove or replace this placeholder.
 
 The design is verified to work as a 4-layer PCB with 1 oz outer and 1/2 oz inner layers.
-A leaded HASL finish is perfectly adequate and ensures compatibility with the original
-solder that will inevitably be left behind on salvaged parts.
+A leaded HASL finish is adequate and ensures compatibility with the original
+solder that will inevitably be left behind on salvaged parts. If you plan to use a
+Mega CD/Sega CD or anything that uses the edge connector you might want to opt for
+an ENIG or other gold finish for this.
+
+For independent testing of the Mega Drive side, you might like to try Chrissy's
+experimental bypass boards for IC504 and IC505 in the ``helpers`` directory (more
+info below in the build notes). Due to the pitch of these 
 
 
 ## Bill of Materials
@@ -66,11 +72,57 @@ all possible revisions but should you work out a solution for a particular donor
 board, please let us know so we can include it in this documentation.
 
 
+## Build Notes
+
+### General
+
+* The ICs on the 32X main board (the "cartridge" part) are glued on making removal
+  tricky. The glue can be softened using isopropyl alcohol, so you may want to give
+  the board soak in this before starting to avoid having to use too much heat.
+
+* Clean all boards thoroughly with e.g. isopropyl alcohol prior to starting.
+  Especially HASL boards from JLC have been known to arrive with some contaminants
+  present which prevent reliable solder joints. Tinning pads will expose any such
+  issues as the solder will not adhere properly.
+
+### Order of Operations
+
+It is possible to break down parts the build into separate steps to allow for easier
+testing and troubleshooting. The following is a suggested order of operations.
+
+* Build the power circuit (all parts in the X800 range) and test this separately.
+  It should provide a steady 5V supply even without any load.
+
+* Add the 3.3V regulator (IC510) for the 32X SDRAM and its associated capacitors.
+  Check for 3.3V on the regulator output as labeled on the board.
+
+* You may wish to install the PIC for the switchless region mod at this point as
+  it should operate independently of the rest of the system. Hold down the reset
+  button to cycle through regions as indicated on the RGB LED. If the LED changes
+  constantly, check pull-up R701 is installed. The PAL/NTSC and JP/ENG outputs
+  should change as appropriate. Verify that a short press of the button generates
+  a /WRES pulse.
+
+* If not using the switchless mod, or to bypass it for testing/troubleshooting,
+  link the indicated pins and set the desired PAL/NTSC and JP/ENG values using the
+  +5V and GND pads on the IC701 footprint. Connect the LED pin of your choice to +5V
+  and a single colour LED for LED701.
+
+* At this point it's time to strap in an install all the MD2 components and the
+  audio and video parts shared between MD and 32X. This cannot be independently
+  tested without bypassing the 32X parts that usually connect to the cartridge slot.
+  To this end, you may like to use the bypass boards for IC504 and IC505 (see the
+  `helpers` directory). These boards are designed to fit in place of the 32X ICs
+  and simply pass the required signals directly to the Mega Drive components.
+
+
+
 ## Thanks/Credits
 
   * Zaxour for the power circuit design, support and hardware review.
 
-  * Leo Oliveira, Simon "Aergan" Lock and Chrissy for their insights and support.
+  * Leo Oliveira, Simon "Aergan" Lock, Chrissy and Dennis for their insights, support
+    and assistance during testing.
 
   * The rest of the Board Folk for their support and general coolness.
 
