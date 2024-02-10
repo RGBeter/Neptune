@@ -88,12 +88,12 @@ marked "VA0" and "VA1" are for those revisions of 32X only. However, should your
 donor hardware have any of these parts it would seem wise to transfer them to the
 new board regardless of the original region/revision.
 
-For early 32X VA0 main boards, pay particular attention to `D699`. If your donor 32X
+For later 32X VA0 main boards, pay particular attention to `D699`. If your donor 32X
 has a THT diode for `/VRES` on the main board you will need to install this or an SMD
 equivalent at this location. The footprint is however bridged, as on other revisions
 there is no diode and this is simply a direct connection. If installing the diode
 you will therefore need to cut the trace between the pads. The accompanying capacitor
-may be installed at location `C594`.
+may be installed at location `C695`.
 
 All SMD passives on the board have 0805 or larger footprints for easier soldering.
 Inductor footprints are 1210 but you can of course use narrower such as 1206.
