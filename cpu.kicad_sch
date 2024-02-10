@@ -5085,7 +5085,7 @@
     (property "Reference" "C903" (at 314.96 156.21 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "22nF" (at 317.5 156.21 90)
+    (property "Value" "100nF" (at 317.5 156.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 312.1152 152.4 0)
