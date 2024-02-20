@@ -19,11 +19,15 @@ submit an issue.
 
 ## Features and Limitations
 
-* Fits original Mega Drive/Genesis 2 or DVIZIX Neptune cases (separate power/reset switch locations are provided for each).
+* Fits original Mega Drive/Genesis 2 or DVIZIX Neptune cases. Separate power/reset
+  switch locations are provided for each (see the `stl` directory for files with
+  which to 3D print spacers for the buttons if using the DVIZIX case).
 * Modern power circuit by Zaxour (requires 9V PSU rated for at least 1A).
-* Integrated switchless region mod using PIC16F630 or compatible programmed with the `switchless.hex` file in this repo ([source here][Switchless]).
+* Integrated switchless region mod using PIC16F630 or compatible programmed with
+  the `switchless.hex` file in this repo ([source here][Switchless]).
 * Integrated "Triple Bypass" mod for improved RGB and audio.
-* Provisional support for Sega Master System games via integrated mod by DogP (compatibility not extensively tested).
+* Provisional support for Sega Master System games via integrated mod by DogP
+  (compatibility not extensively tested).
 * Compatible with the original Sega/Mega CD.\*
 
 * Not compatible with flash cart-based Sega/Mega CD implementations such as the Mega EverDrive Pro.
