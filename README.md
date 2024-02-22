@@ -134,16 +134,17 @@ testing and troubleshooting. The following is a suggested order of operations.
   Check for 3.3V on the regulator output as labeled on the board.
 
 * You may wish to install the PIC for the switchless region mod at this point as
-  it should operate independently of the rest of the system. Hold down the reset
-  button to cycle through regions as indicated on the RGB LED. If the LED changes
-  constantly, check pull-up R701 is installed. The PAL/NTSC and JP/ENG outputs
-  should change as appropriate. Verify that a short press of the button generates
-  a /WRES pulse.
+  it should operate independently of the rest of the system. Install also the LED,
+  passives in the X700 range and a temporary pull-up on `/WRES` (pin 11).
+  Hold down the reset button to cycle through regions as indicated on the RGB LED.
+  If the LED changes constantly, check pull-up `R701` is installed. The PAL/NTSC
+  and JP/ENG outputs should change as appropriate. Verify that a short press of
+  the button generates a `/WRES` pulse.
 
 * If not using the switchless mod, or to bypass it for testing/troubleshooting,
   link the indicated pins and set the desired PAL/NTSC and JP/ENG values using the
-  +5V and GND pads on the IC701 footprint. Connect the LED pin of your choice to +5V
-  and a single colour LED for LED701.
+  +5V and GND pads on the `IC701` footprint. Connect the LED pin of your choice to
+  +5V and a single colour LED for `LED701`.
 
 * At this point it's time to strap in an install all the MD2 components and the
   audio and video parts shared between MD and 32X. This cannot be independently
