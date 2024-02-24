@@ -7273,7 +7273,7 @@
     (property "Reference" "C576" (at 334.645 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0?" (at 334.645 85.09 90)
+    (property "Value" "0" (at 334.645 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 338.455 87.9348 0)
