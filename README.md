@@ -115,7 +115,7 @@ flowing nicely, this may well be the problem.
 * The ICs on at least one side of the 32X main board (the "cartridge" part) are glued
   on making removal tricky. The glue can be softened using isopropyl alcohol, so you
   may want to give the board soak in this before starting to avoid having to use too
-  much heat.
+  much heat. Low-melt solder will also help in this respect.
 
 * Clean all boards thoroughly with e.g. isopropyl alcohol prior to starting.
   Especially HASL boards from JLC have been known to arrive with some contaminants
@@ -135,7 +135,7 @@ testing and troubleshooting. The following is a suggested order of operations.
 
 * You may wish to install the PIC for the switchless region mod at this point as
   it should operate independently of the rest of the system. Install also the LED,
-  passives in the X700 range and a temporary pull-up on `/WRES` (pin 11).
+  passives in the X700 range and a temporary ~10K pull-up on `/WRES` (pin 11).
   Hold down the reset button to cycle through regions as indicated on the RGB LED.
   If the LED changes constantly, check pull-up `R701` is installed. The PAL/NTSC
   and JP/ENG outputs should change as appropriate. Verify that a short press of
@@ -146,12 +146,16 @@ testing and troubleshooting. The following is a suggested order of operations.
   +5V and GND pads on the `IC701` footprint. Connect the LED pin of your choice to
   +5V and a single colour LED for `LED701`.
 
-* At this point it's time to strap in an install all the MD2 components and the
+* At this point it's time to strap in and install all the MD2 components and the
   audio and video parts shared between MD and 32X. This cannot be independently
   tested without bypassing the 32X parts that usually connect to the cartridge slot.
   To this end, you may like to use the bypass boards for IC504 and IC505 (see the
   `helpers` directory). These boards are designed to fit in place of the 32X ICs
-  and simply pass the required signals directly to the Mega Drive components.
+  and simply pass the required signals directly to the Mega Drive components. If
+  using the bypass boards, you will also need to temporarily connect the /YS and
+  /AS signals to the cartridge slot. /YS has a labeled test point for this near
+  the connector. /AS can be tapped from the labeled pad on `R75`. Remove these
+  connections before installing the 32X hardware.
 
 * For a fully assembled board WITHOUT any cables connected there should be around
   350 Ohms between VCC and ground. If you measure something wildly different this
@@ -163,9 +167,11 @@ testing and troubleshooting. The following is a suggested order of operations.
 
   * Zaxour for the power circuit design, invaluable support and hardware review.
 
-  * Leo Oliveira, Simon "Aergan" Lock, Chrissy (@chris_jh), Ian (@grandoldian) and
-    Dennis (@PointerFunction) for their insights, support and assistance during
-    testing.
+  * Chrissy (@chris_jh) for testing, support and work on making pre-assembled PCBs
+    possible.
+
+  * Leo Oliveira, Simon "Aergan" Lock, Ian (@grandoldian) and Dennis (@PointerFunction)
+    for their insights, support and assistance during testing.
 
   * The rest of the Board Folk for their support and general coolness.
 
