@@ -123,7 +123,7 @@ flowing nicely, this may well be the problem.
   pads and clean up with braid/wick to ensure that solder will adhere properly.
 
 * The Triple Bypass mod features a low pass filter that can be enabled or disabled by
-  fitting `R966` or `R965` respectively. As the LPF had both advantages and
+  fitting `R966` or `R965` respectively. As the LPF has both advantages and
   disadvantages, the choice is left to the builder. When using the provided PCB
   assembly files, the LPF is enabled by default. Otherwise, you must fit one of these
   resistors; the enable pin may not be left floating. Enabling the LPF may improve
