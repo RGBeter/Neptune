@@ -7,7 +7,7 @@
   (title_block
     (title "Power, Connectors and Misc.")
     (date "2023-11-29")
-    (rev "1.1b")
+    (rev "1.2a")
     (company "By Cosam")
     (comment 1 "Neptune")
   )
@@ -7090,10 +7090,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d96bded3-67fc-411a-b306-170768eade65)
   )
-  (text "PAL\nONLY" (at 387.35 60.96 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid f865cb33-2f17-403d-b766-4ae94b2b5b48)
-  )
 
   (label "CTA17" (at 164.465 71.12 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -9042,7 +9038,7 @@
     (property "Reference" "C10" (at 381 57.785 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10pF" (at 381 60.325 0)
+    (property "Value" "10pF (PAL only)" (at 381 60.325 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 378.7902 62.865 0)
