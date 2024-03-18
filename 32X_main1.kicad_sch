@@ -6537,7 +6537,7 @@
     (property "Value" "315-5805" (at 249.555 46.355 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_QFP:PQFP-80_14x20mm_P0.8mm" (at 249.555 83.82 0)
+    (property "Footprint" "Neptune:PQFP-80_14x20mm_P0.8mm" (at 249.555 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 249.555 83.82 0)
