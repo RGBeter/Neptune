@@ -4113,7 +4113,7 @@
     (property "Value" "68HC000" (at 171.1041 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_LCC:PLCC-68" (at 147.32 58.42 0)
+    (property "Footprint" "Neptune:PLCC-68" (at 147.32 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf" (at 166.37 115.57 0)
