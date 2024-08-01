@@ -1,153 +1,318 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid bcc23b51-b742-4ae5-9dd6-d96a24058944)
-
-  (paper "A3")
-
-  (title_block
-    (date "2023-11-29")
-    (rev "1.2a")
-    (company "By Cosam")
-    (comment 1 "Neptune")
-  )
-
-  (lib_symbols
-  )
-
-
-  (text "32X\n" (at 45.085 135.255 0)
-    (effects (font (size 2.54 2.54)) (justify left bottom))
-    (uuid 4751cfce-cd01-41bf-b430-64dbf9e3e5bc)
-  )
-  (text "Misc. + mods, etc." (at 45.085 99.06 0)
-    (effects (font (size 2.54 2.54)) (justify left bottom))
-    (uuid 57313ccb-a97a-4793-aae2-92beab0e484a)
-  )
-  (text "Mega Drive" (at 45.085 63.5 0)
-    (effects (font (size 2.54 2.54)) (justify left bottom))
-    (uuid 8fcb48ae-2503-4a52-bad4-946478b27d2c)
-  )
-
-  (sheet (at 90.17 88.9) (size 32.385 20.32) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 01513199-62c5-4123-a151-ccd381a5e6c1)
-    (property "Sheetname" "Misc" (at 90.17 88.1884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "misc.kicad_sch" (at 90.17 109.8046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Neptune"
-        (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 130.175 53.34) (size 32.385 20.32) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 0d895458-d3d0-4635-bde5-e15500822f5f)
-    (property "Sheetname" "SGE" (at 130.175 52.6284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "sge.kicad_sch" (at 130.175 74.2446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Neptune"
-        (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 170.18 53.34) (size 32.385 20.32) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 293c8f1f-2c58-4557-aeb8-8502bb66fbd4)
-    (property "Sheetname" "Z80" (at 170.18 52.6284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "z80.kicad_sch" (at 170.18 74.2446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Neptune"
-        (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 90.17 53.34) (size 32.385 20.32) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 48e60f61-77cc-4ea0-898f-0029aa970ca5)
-    (property "Sheetname" "CPU" (at 90.17 52.6284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "cpu.kicad_sch" (at 90.17 74.2446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Neptune"
-        (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944" (page "1"))
-      )
-    )
-  )
-
-  (sheet (at 90.17 125.095) (size 32.385 20.32) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid a9caee2e-423b-443e-a11f-5841882e2685)
-    (property "Sheetname" "32X Main 1" (at 90.17 124.3834 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "32X_main1.kicad_sch" (at 90.17 145.9996 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Neptune"
-        (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944" (page "6"))
-      )
-    )
-  )
-
-  (sheet (at 130.175 125.095) (size 32.385 20.32) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid e4c57f96-d802-4292-9df6-7ff62ef14a9e)
-    (property "Sheetname" "32X Main 2" (at 130.175 124.3834 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "32X_main2.kicad_sch" (at 130.175 145.9996 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Neptune"
-        (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944" (page "7"))
-      )
-    )
-  )
-
-  (sheet (at 170.18 125.095) (size 32.385 20.32) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid edde10e2-ce08-4180-9fbe-ab298dfbfa4c)
-    (property "Sheetname" "32X Sub" (at 170.18 124.3834 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "32X_sub.kicad_sch" (at 170.18 145.9996 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Neptune"
-        (path "/bcc23b51-b742-4ae5-9dd6-d96a24058944" (page "8"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "9"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bcc23b51-b742-4ae5-9dd6-d96a24058944")
+	(paper "A3")
+	(title_block
+		(date "2023-11-29")
+		(rev "1.2a")
+		(company "By Cosam")
+		(comment 1 "Neptune")
+	)
+	(lib_symbols)
+	(text "32X\n"
+		(exclude_from_sim no)
+		(at 45.085 135.255 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "4751cfce-cd01-41bf-b430-64dbf9e3e5bc")
+	)
+	(text "Misc. + mods, etc."
+		(exclude_from_sim no)
+		(at 45.085 99.06 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "57313ccb-a97a-4793-aae2-92beab0e484a")
+	)
+	(text "Mega Drive"
+		(exclude_from_sim no)
+		(at 45.085 63.5 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fcb48ae-2503-4a52-bad4-946478b27d2c")
+	)
+	(sheet
+		(at 90.17 88.9)
+		(size 32.385 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "01513199-62c5-4123-a151-ccd381a5e6c1")
+		(property "Sheetname" "Misc"
+			(at 90.17 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "misc.kicad_sch"
+			(at 90.17 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Neptune"
+				(path "/bcc23b51-b742-4ae5-9dd6-d96a24058944"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.175 53.34)
+		(size 32.385 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d895458-d3d0-4635-bde5-e15500822f5f")
+		(property "Sheetname" "SGE"
+			(at 130.175 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sge.kicad_sch"
+			(at 130.175 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Neptune"
+				(path "/bcc23b51-b742-4ae5-9dd6-d96a24058944"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170.18 53.34)
+		(size 32.385 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "293c8f1f-2c58-4557-aeb8-8502bb66fbd4")
+		(property "Sheetname" "Z80"
+			(at 170.18 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "z80.kicad_sch"
+			(at 170.18 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Neptune"
+				(path "/bcc23b51-b742-4ae5-9dd6-d96a24058944"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 53.34)
+		(size 32.385 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "48e60f61-77cc-4ea0-898f-0029aa970ca5")
+		(property "Sheetname" "CPU"
+			(at 90.17 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cpu.kicad_sch"
+			(at 90.17 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Neptune"
+				(path "/bcc23b51-b742-4ae5-9dd6-d96a24058944"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 125.095)
+		(size 32.385 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a9caee2e-423b-443e-a11f-5841882e2685")
+		(property "Sheetname" "32X Main 1"
+			(at 90.17 124.3834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "32X_main1.kicad_sch"
+			(at 90.17 145.9996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Neptune"
+				(path "/bcc23b51-b742-4ae5-9dd6-d96a24058944"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.175 125.095)
+		(size 32.385 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e4c57f96-d802-4292-9df6-7ff62ef14a9e")
+		(property "Sheetname" "32X Main 2"
+			(at 130.175 124.3834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "32X_main2.kicad_sch"
+			(at 130.175 145.9996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Neptune"
+				(path "/bcc23b51-b742-4ae5-9dd6-d96a24058944"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170.18 125.095)
+		(size 32.385 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "edde10e2-ce08-4180-9fbe-ab298dfbfa4c")
+		(property "Sheetname" "32X Sub"
+			(at 170.18 124.3834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "32X_sub.kicad_sch"
+			(at 170.18 145.9996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Neptune"
+				(path "/bcc23b51-b742-4ae5-9dd6-d96a24058944"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "9")
+		)
+	)
 )
