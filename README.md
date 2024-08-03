@@ -24,7 +24,8 @@ submit an issue.
   which to 3D print spacers for the buttons if using the DVIZIX case).
 * Modern power circuit by Zaxour (requires 9V PSU rated for at least 1A).
 * Integrated switchless region mod using PIC16F630 or compatible programmed with
-  the `switchless.hex` file in this repo ([source here][Switchless]).
+  the `switchless_xxxx.hex` files in this repo ([source here][Switchless]). Use
+  the file that matches your LED's pinout.
 * Integrated "Triple Bypass" mod for improved RGB and audio.
 * Provisional support for Sega Master System games via integrated mod by DogP
   (compatibility not extensively tested).
@@ -146,6 +147,8 @@ testing and troubleshooting. The following is a suggested order of operations.
 * You may wish to install the PIC for the switchless region mod at this point as
   it should operate independently of the rest of the system. Install also the LED,
   passives in the X700 range and a temporary ~10K pull-up on `/WRES` (pin 11).
+  If your LED has protruding "lugs" instead of just straight pins, it's recommended
+  to trim these off if possible before installation to avoid damaging the board.
   Hold down the reset button to cycle through regions as indicated on the RGB LED.
   If the LED changes constantly, check pull-up `R701` is installed. The PAL/NTSC
   and JP/ENG outputs should change as appropriate. Verify that a short press of
