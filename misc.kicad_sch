@@ -26934,7 +26934,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u 50V C0G/NP0"
+		(property "Value" "0.1uF 50V X7R"
 			(at 216.535 241.935 90)
 			(effects
 				(font
@@ -35921,7 +35921,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF 25V X7R"
+		(property "Value" "0.1uF 50V X7R"
 			(at 71.12 240.665 90)
 			(effects
 				(font
@@ -35966,7 +35966,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C520083"
+		(property "LCSC Part #" "C111492"
 			(at 66.675 227.965 0)
 			(effects
 				(font
@@ -35975,7 +35975,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "VJ0805Y104JXXAR"
+		(property "MPN" "VJ0805Y104JFAAR"
 			(at 66.675 227.965 0)
 			(effects
 				(font
