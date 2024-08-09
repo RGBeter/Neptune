@@ -113,6 +113,15 @@ flowing nicely, this may well be the problem.
 
 ### General
 
+* Before disassembling the donor consoles, test these thoroughly using the "Mars
+  Checker" diagnostic ROM. Please note that running this from some flash carts
+  (particular EverDrive models or Mega SD) may yield unreliable results. Even on
+  known-good original hardware, you may be presented with a red screen when booting
+  or test runs may/may not succeed seemingly at random. For this reason, it's
+  recommended to run the tests several times. If you are unable to boot the
+  diagnostics using your particular flash cart, consider a simpler single-image
+  (i.e. no menu) one or something EPROM-based.
+
 * The ICs on at least one side of the 32X main board (the "cartridge" part) are glued
   on making removal tricky. The glue can be softened using isopropyl alcohol, so you
   may want to give the board soak in this before starting to avoid having to use too
