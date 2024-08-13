@@ -12804,7 +12804,7 @@
 		)
 		(uuid "6f925761-defe-4166-a4dd-7b713bad56af")
 	)
-	(text "THT bodges on later VA0 main\nboards with SCA chip. If your\ndonor has this, CUT THE TRACE\nbefore installing the diode here.\nOtherwise leave bridge intact."
+	(text "THT bodges on later 32X main\nboards with SCA chip. If your\ndonor has this, CUT THE TRACE\nbefore installing the diode here.\nOtherwise leave bridge intact."
 		(exclude_from_sim no)
 		(at 97.79 179.07 0)
 		(effects
@@ -16072,7 +16072,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Later VA0 only"
+		(property "Value" "SCA only"
 			(at 110.49 201.93 0)
 			(effects
 				(font
@@ -16394,7 +16394,7 @@
 				)
 			)
 		)
-		(property "Value" "Later VA0 only"
+		(property "Value" "SCA only"
 			(at 118.11 188.595 0)
 			(effects
 				(font
