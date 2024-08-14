@@ -156,6 +156,9 @@ testing and troubleshooting. The following is a suggested order of operations.
 * You may wish to install the PIC for the switchless region mod at this point as
   it should operate independently of the rest of the system. Install also the LED,
   passives in the X700 range and a temporary ~10K pull-up on `/WRES` (pin 11).
+  R702 limits current through the LED and therefore determines its brightness.
+  The value is based on the original MD2 LED, so you may prefer to use a higher
+  value when using a modern LED, which tend to be brighter for the same current.
   If your LED has protruding "lugs" instead of just straight pins, it's recommended
   to trim these off if possible before installation to avoid damaging the board.
   Hold down the reset button to cycle through regions as indicated on the RGB LED.
