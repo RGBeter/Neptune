@@ -19,9 +19,11 @@ submit an issue.
 
 ## Features and Limitations
 
-* Fits original Mega Drive/Genesis 2 or DVIZIX Neptune cases. Separate power/reset
-  switch locations are provided for each (see the `stl` directory for files with
-  which to 3D print spacers for the buttons if using the DVIZIX case).
+* Fits original Mega Drive 2 (PAL), Genesis 2 or DVIZIX Neptune cases. Separate
+  power/reset switch locations are provided for each (see the `stl` directory for
+  files with which to 3D print spacers for the buttons if using the DVIZIX case).
+* NOT compatible with the Japanese Mega Drive 2 case due to this using a sliding
+  power switch with a different footprint to that of the push button style.
 * Modern power circuit by Zaxour (requires 9V PSU rated for at least 1A).
 * Integrated switchless region mod using PIC16F630 or compatible programmed with
   the `switchless_xxxx.hex` files in this repo ([source here][Switchless]). Use
@@ -30,7 +32,6 @@ submit an issue.
 * Provisional support for Sega Master System games via integrated mod by DogP
   (compatibility not extensively tested).
 * Compatible with the original Sega/Mega CD.\*
-
 * Not compatible with flash cart-based Sega/Mega CD implementations such as the Mega EverDrive Pro.
 * As the 32X hardware is integrated into the design, there is NO way to disable this.
 * No mono audio output.
