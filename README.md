@@ -126,7 +126,8 @@ flowing nicely, this may well be the problem.
 * The ICs on at least one side of the 32X main board (the "cartridge" part) are glued
   on making removal tricky. The glue can be softened using isopropyl alcohol, so you
   may want to give the board soak in this before starting to avoid having to use too
-  much heat. Low-melt solder will also help in this respect.
+  much heat. Low-melt solder (e.g. ChipQuik) is very much recommended. Avoid using hot
+  air where possible as this has been known to damage these fragile chips.
 
 * Clean all boards thoroughly with e.g. isopropyl alcohol prior to starting.
   Especially HASL boards from JLC have been known to arrive with some contaminants
