@@ -183,6 +183,17 @@ testing and troubleshooting. The following is a suggested order of operations.
   the connector. /AS can be tapped from the labeled pad on `R75`. Remove these
   connections before installing the 32X hardware.
 
+* When testing a newly-built Neptune, trying different kinds of cartridges and
+  peripherals is useful for troubleshooting issues. Original Mega Drive cartridges
+  are a good place to start as these should run even if the 32X hardware isn't
+  fully operational. Running Master System cartridges via an adapter also hits
+  different functionality in the MD VDP/ASIC, Z80, memory, etc. If no cartridges
+  work, you may be able to boot to the BIOS screen of a Mega CD/Sega CD, which
+  would point to issues around the cartridge slot and/or 32X bus multiplexing.
+  Once the basic functionality is verified, diagnostics such as those in the
+  [240p Test Suite][240p] and Mars Checker can be used to troubleshoot any
+  remaining issues.
+
 * For a fully assembled board WITHOUT any cables connected there should be around
   350 Ohms between VCC and ground. If you measure something wildly different this
   may indicate a short, an incorrectly installed IC or similar. With the video
@@ -227,3 +238,4 @@ of merchantability and fitness for a particular purpose.
 [IBOM]: http://htmlpreview.github.io/?https://raw.githubusercontent.com/Board-Folk/Neptune/master/bom/ibom.html
 [Switchless]: https://github.com/atomicretronl/switchless
 [Revisions]: https://segaretro.org/Sega_Mega_Drive/Hardware_revisions
+[240p]: https://junkerhq.net/xrgb/index.php?title=240p_test_suite
