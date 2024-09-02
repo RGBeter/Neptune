@@ -11,6 +11,11 @@ DVIZIX.
 * In most cases, desoldering said components to obtain these from a donor board.
 * Troubleshooting any issues that may arise.
 
+Development and testing of these PCBs has shown that successfully assembling a
+working board is challenging even for skilled, experienced builders. Please read the
+build notes below carefully before starting. If you are in any doubt, it is highly
+recommended to enlist the help of someone with a known track record.
+
 The authors are not obliged to provide support, nor shall they be held responsible
 for botched attempts at using these boards. Should you however find a legitimate flaw
 in the board's design or have suggestions for improvements, please feel free to
@@ -24,37 +29,45 @@ submit an issue.
   files with which to 3D print spacers for the buttons if using the DVIZIX case).
 * NOT compatible with the Japanese Mega Drive 2 case due to this using a sliding
   power switch with a different footprint to that of the push button style.
-* Modern power circuit by Zaxour (requires 9V PSU rated for at least 1A).
+* Modern power circuit by Zaxour (requires 9V DC PSU rated for at least 1A).
 * Integrated switchless region mod using PIC16F630 or compatible programmed with
   the `switchless_xxxx.hex` files in this repo ([source here][Switchless]). Use
   the file that matches your LED's pinout.
 * Integrated "Triple Bypass" mod for improved RGB and audio.
-* Provisional support for Sega Master System games via integrated mod by DogP
-  (compatibility not extensively tested).
-* Compatible with the original Sega/Mega CD.\*
-* Not compatible with flash cart-based Sega/Mega CD implementations such as the Mega EverDrive Pro.
+* Provisional support for Sega Master System games via integrated mod by DogP.\*
+* Compatible with the original Sega CD/Mega CD.\*\*
+* Not compatible with flash cart-based Sega CD/Mega CD implementations such as
+  the Mega EverDrive Pro.
 * As the 32X hardware is integrated into the design, there is NO way to disable this.
 * No mono audio output.
 
-\* The model 2 Sega CD/Mega CD uses the +9V pin on the expansion connector to power
+\* Master System compatibility is not extensively tested. Original cartridges have
+been shown to work when using simple pass-through adapters. Using Mega Drive flash
+carts to run Master System games may or may not work. Some such cartridges check for
+the presence of a 32X and, if detected, will refuse to boot in Master System mode,
+as this would usually cause a hardware conflict. In some cases this check can be
+disabled in the flash cart's menu. While we believe that this is safe, you do so at
+your own risk.
+
+\*\* The model 2 Sega CD/Mega CD uses the +9V pin on the expansion connector to power
 itself on along with the attached console. This board does not however provide 9V
 to this pin. Testing has shown that the CD hardware will also power on with only 5V
-on this pin. The suggested action is to therefore connect the +5V and +9V pads near
-B26 and B28 with a wire link. We're not aware of any add-ons that require 9V on the
-expansion connector. If you do however really need it, there is another +9V point
-near the power jack. This is however not switched along with the console and will
-remain powered as long as there is power to the jack. You could rig up something with
-a transistor to make 9V switch on along with the console.
+on this pin. We're not aware of any add-ons that require 9V on the expansion connector,
+so what would usually be +9V is connected to +5V by a trace between the pads near
+B26 and B28. If you do however really need it, there is another +9V pad near the
+power jack. This is however not switched along with the console and will remain
+powered as long as there is power to the jack. You could rig up something with
+a transistor or MOSFET to make 9V switch on along with the console. Of course, making
+any such modification will require the trace between +5V and +9V be cut.
 
 
 ## PCB Production
 
 Minimum track widths, clearances and via sizes are within the standard
 offering of modern PCB fabricators. Gerber files are generated with the relevant
-options for [JLCPCB](https://jlcpcb.com/). The latest revision is also available
-as a shared project at PCBWay. Placeholders for the order number are provided so
-remember to select the "Specify location" option for this when ordering. If using
-another service you may wish to remove or replace this placeholder.
+options for [JLCPCB](https://jlcpcb.com/). Placeholders for the order number are
+provided so remember to select the "Specify location" option for this when ordering.
+If using another service you may wish to remove or replace this placeholder.
 
 The design is verified to work as a 4-layer PCB with 1 oz outer and 1/2 oz inner
 layers. The intended layer order is Front, In1, In2, Back. A leaded HASL finish is
@@ -82,24 +95,26 @@ project itself. Parts are numbered according to the following scheme:
 It is assumed that most parts will be obtained from donor Mega Drive/Genesis and
 32X units. The project was initially based on a VA1 PAL Mega Drive 2 and VA1 PAL
 32X. [Other Mega Drive/Genesis][Revisions] revisions may be usable if these also
-use a 315-5660 or compatible ASIC. All 32X revisions should be usable but this has
-not yet been confirmed. Note the differences in parts between MD and 32X
-revisions/regions as documented in the schematics. It is probably not feasible to
-list the differences between all possible revisions but should you work out a
-solution for a particular donor board, please let us know so we can include it in
-this documentation.
+use a 315-5660 or compatible ASIC. Be aware that the 315-5660-10 variant found on
+some Japanese revisions are known not to support 50 Hz operation which will render
+the integrated switchless region mod superfluous. All 32X revisions should be
+usable but this has not yet been confirmed. Note the differences in parts between
+MD and 32X revisions/regions as documented in the schematics. It is probably not
+feasible to list the differences between all possible revisions but should you work
+out a solution for a particular donor board, please let us know so we can include
+it in this documentation.
 
 Parts marked "PAL" on the board are supposedly only used on PAL Mega Drives. Parts
 marked "VA0" and "VA1" are for those revisions of 32X only. However, should your
 donor hardware have any of these parts it would seem wise to transfer them to the
 new board regardless of the original region/revision.
 
-For later 32X VA0 main boards, pay particular attention to `D699`. If your donor 32X
-has a THT diode for `/VRES` on the main board you will need to install this or an SMD
-equivalent at this location. The footprint is however bridged, as on other revisions
-there is no diode and this is simply a direct connection. If installing the diode
-you will therefore need to cut the trace between the pads. The accompanying capacitor
-may be installed at location `C695`.
+For 32X main boards with the SCA chip, pay particular attention to `D699`. If your
+donor 32X has a THT diode for `/VRES` on the main board you will need to install this
+or an SMD equivalent at this location. The footprint is however bridged, as on other
+revisions there is no diode and this is simply a direct connection. If installing the
+diode you will therefore need to cut the trace between the pads. The accompanying
+capacitor may be installed at location `C695`.
 
 All SMD passives on the board have 0805 or larger footprints for easier soldering.
 Inductor footprints are 1210 but you can of course use narrower such as 1206.
@@ -126,8 +141,14 @@ flowing nicely, this may well be the problem.
 * The ICs on at least one side of the 32X main board (the "cartridge" part) are glued
   on making removal tricky. The glue can be softened using isopropyl alcohol, so you
   may want to give the board soak in this before starting to avoid having to use too
-  much heat. Low-melt solder (e.g. ChipQuik) is very much recommended. Avoid using hot
-  air where possible as this has been known to damage these fragile chips.
+  much heat. Low-melt solder (e.g. ChipQuik) is very much recommended. Avoid extended
+  use of hot air to avoid damaging these potentially fragile chips.
+
+* It may sound obvious, but pay close attention to orientation when fitting ICs. The
+  32X SDRAM (IC503) and some of the QFP packages have particularly subtle markings.
+  It helps to mark (e.g. with tape or a groove in the package casing) pin one before
+  removing the ICs from the donor boards. The legend silkscreen on the board *should*
+  match that on the IC but this may not always be a reliable indicator of orientation.
 
 * Clean all boards thoroughly with e.g. isopropyl alcohol prior to starting.
   Especially HASL boards from JLC have been known to arrive with some contaminants
@@ -176,13 +197,14 @@ testing and troubleshooting. The following is a suggested order of operations.
 * At this point it's time to strap in and install all the MD2 components and the
   audio and video parts shared between MD and 32X. This cannot be independently
   tested without bypassing the 32X parts that usually connect to the cartridge slot.
-  To this end, you may like to use the bypass boards for IC504 and IC505 (see the
+  To this end, you may like to use the bypass flexes for IC504 and IC505 (see the
   `helpers` directory). These boards are designed to fit in place of the 32X ICs
   and simply pass the required signals directly to the Mega Drive components. If
   using the bypass boards, you will also need to temporarily connect the /YS and
   /AS signals to the cartridge slot. /YS has a labeled test point for this near
-  the connector. /AS can be tapped from the labeled pad on `R75`. Remove these
-  connections before installing the 32X hardware.
+  pin B12 on the underside of the slot. /AS can be connected by bridging pins 8
+  and 12 on the footprint for `IC516`. Remove these connections before installing
+  the remaining 32X hardware.
 
 * When testing a newly-built Neptune, trying different kinds of cartridges and
   peripherals is useful for troubleshooting issues. Original Mega Drive cartridges

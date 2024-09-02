@@ -10154,6 +10154,12 @@
 		(uuid "3399bfd5-53fa-4906-912c-23e606db61f2")
 	)
 	(junction
+		(at 133.985 93.345)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3690deb4-2027-4b72-9378-554d676b5147")
+	)
+	(junction
 		(at 110.49 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10254,6 +10260,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52998999-584b-4d6b-9db3-822066874948")
+	)
+	(junction
+		(at 110.49 93.345)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5374ed1c-07cd-4c71-904b-80dd5b84806c")
 	)
 	(junction
 		(at 45.085 139.065)
@@ -13373,7 +13385,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 90.805) (xy 110.49 101.6)
+			(xy 110.49 90.805) (xy 110.49 93.345)
 		)
 		(stroke
 			(width 0)
@@ -15881,6 +15893,16 @@
 		)
 		(uuid "a493fd44-2e4b-4cf0-9647-2ebe7b5d7a69")
 	)
+	(wire
+		(pts
+			(xy 110.49 93.345) (xy 110.49 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e6d244-d468-4306-a806-da594da4cc4e")
+	)
 	(bus
 		(pts
 			(xy 207.645 38.1) (xy 207.645 40.64)
@@ -17270,6 +17292,16 @@
 			(type default)
 		)
 		(uuid "ce4eb0ae-deb3-4749-8c10-b6f374da9498")
+	)
+	(wire
+		(pts
+			(xy 110.49 93.345) (xy 133.985 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d011e9a5-2ca8-42d2-8ee7-f4732e9214a1")
 	)
 	(bus
 		(pts
@@ -23683,18 +23715,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2ede0af6-8d25-48e6-937a-8ebf314d2125")
 		(property "Reference" "CN6"
-			(at 254.635 67.31 0)
+			(at 250.825 81.915 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1P"
-			(at 254.635 69.85 0)
+		(property "Value" "2P"
+			(at 250.825 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)

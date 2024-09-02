@@ -112,6 +112,17 @@
 		(layer "F.SilkS")
 		(uuid "947945f4-62eb-4452-bbae-edd47bb248a5")
 	)
+	(fp_arc
+		(start -10.3124 -1.1684)
+		(mid -9.144 0)
+		(end -10.3124 1.1684)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3f480eaf-91a0-440e-94d2-e2c23589c216")
+	)
 	(fp_poly
 		(pts
 			(xy -9.6012 7.874) (xy -9.8512 8.624) (xy -9.3512 8.624)
