@@ -94,15 +94,15 @@ project itself. Parts are numbered according to the following scheme:
 
 It is assumed that most parts will be obtained from donor Mega Drive/Genesis and
 32X units. The project was initially based on a VA1 PAL Mega Drive 2 and VA1 PAL
-32X. [Other Mega Drive/Genesis][Revisions] revisions may be usable if these also
-use a 315-5660 or compatible ASIC. Be aware that the 315-5660-10 variant found on
-some Japanese revisions are known not to support 50 Hz operation which will render
-the integrated switchless region mod superfluous. All 32X revisions should be
-usable but this has not yet been confirmed. Note the differences in parts between
-MD and 32X revisions/regions as documented in the schematics. It is probably not
-feasible to list the differences between all possible revisions but should you work
-out a solution for a particular donor board, please let us know so we can include
-it in this documentation.
+32X. [Other Mega Drive/Genesis revisions][Revisions] may be usable if these also
+use a 315-5660 or [compatible ASIC][ASICs]. Be aware that some ASICs (e.g. the
+315-5660-10 variant found on some Japanese revisions) are known not to support 50
+Hz operation which will limit the usefullness of the integrated switchless region
+mod. All 32X revisions should be usable but this has not yet been confirmed. Note
+the differences in parts between MD and 32X revisions/regions as documented in the
+schematics. It is probably not feasible to list the differences between all possible
+revisions but should you work out a solution for a particular donor board, please
+let us know so we can include it in this documentation.
 
 Parts marked "PAL" on the board are supposedly only used on PAL Mega Drives. Parts
 marked "VA0" and "VA1" are for those revisions of 32X only. However, should your
@@ -261,4 +261,5 @@ of merchantability and fitness for a particular purpose.
 [IBOM]: http://htmlpreview.github.io/?https://raw.githubusercontent.com/Board-Folk/Neptune/master/bom/ibom.html
 [Switchless]: https://github.com/atomicretronl/switchless
 [Revisions]: https://segaretro.org/Sega_Mega_Drive/Hardware_revisions
+[ASICs]: https://consolemods.org/wiki/Genesis:ASIC_Information
 [240p]: https://junkerhq.net/xrgb/index.php?title=240p_test_suite
