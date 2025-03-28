@@ -7,7 +7,7 @@
 	(title_block
 		(title "32X Sub")
 		(date "2023-11-29")
-		(rev "1.2a")
+		(rev "1.3")
 		(company "By Cosam")
 		(comment 1 "Neptune")
 	)
@@ -10011,7 +10011,6 @@
 	)
 	(label "CTD4"
 		(at 52.705 242.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10022,7 +10021,6 @@
 	)
 	(label "CTD14"
 		(at 52.705 252.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10033,7 +10031,6 @@
 	)
 	(label "CTD11"
 		(at 52.705 247.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10044,7 +10041,6 @@
 	)
 	(label "CTD15"
 		(at 52.705 250.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10055,7 +10051,6 @@
 	)
 	(label "CTD3"
 		(at 52.705 245.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10066,7 +10061,6 @@
 	)
 	(label "CTD2"
 		(at 52.705 224.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10077,7 +10071,6 @@
 	)
 	(label "CTD12"
 		(at 52.705 257.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10088,7 +10081,6 @@
 	)
 	(label "CTD6"
 		(at 52.705 219.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10099,7 +10091,6 @@
 	)
 	(label "CTD5"
 		(at 52.705 222.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10110,7 +10101,6 @@
 	)
 	(label "CTD13"
 		(at 52.705 255.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10121,7 +10111,6 @@
 	)
 	(label "CTD1"
 		(at 52.705 227.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10132,7 +10121,6 @@
 	)
 	(label "CTD7"
 		(at 52.705 212.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10143,7 +10131,6 @@
 	)
 	(label "CTD0"
 		(at 52.705 214.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10154,7 +10141,6 @@
 	)
 	(label "CTD9"
 		(at 52.705 209.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10165,7 +10151,6 @@
 	)
 	(label "CTD10"
 		(at 52.705 240.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10176,7 +10161,6 @@
 	)
 	(label "CTD8"
 		(at 52.705 217.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14122,7 +14106,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57ab6198-8f6c-4b6e-9edd-a932085071a9")
-		(property "Reference" "R45"
+		(property "Reference" "R545"
 			(at 334.645 64.135 90)
 			(effects
 				(font
@@ -14201,7 +14185,7 @@
 		(instances
 			(project "Neptune"
 				(path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/edde10e2-ce08-4180-9fbe-ab298dfbfa4c"
-					(reference "R45")
+					(reference "R545")
 					(unit 1)
 				)
 			)

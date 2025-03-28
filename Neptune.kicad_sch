@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(date "2023-11-29")
-		(rev "1.2a")
+		(rev "1.3")
 		(company "By Cosam")
 		(comment 1 "Neptune")
 	)

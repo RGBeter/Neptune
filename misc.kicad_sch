@@ -7,7 +7,7 @@
 	(title_block
 		(title "Power, Connectors and Misc.")
 		(date "2023-11-29")
-		(rev "1.2a")
+		(rev "1.3")
 		(company "By Cosam")
 		(comment 1 "Neptune")
 	)
@@ -18546,7 +18546,6 @@
 	)
 	(label "CTA17"
 		(at 164.465 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18557,7 +18556,6 @@
 	)
 	(label "VA7"
 		(at 85.725 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18568,7 +18566,6 @@
 	)
 	(label "VA22"
 		(at 370.84 210.185 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18579,7 +18576,6 @@
 	)
 	(label "CTA7"
 		(at 164.465 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18590,7 +18586,6 @@
 	)
 	(label "VA17"
 		(at 85.725 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18601,7 +18596,6 @@
 	)
 	(label "VA18"
 		(at 83.185 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18612,7 +18606,6 @@
 	)
 	(label "VA8"
 		(at 85.725 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18623,7 +18616,6 @@
 	)
 	(label "VA16"
 		(at 85.725 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18634,7 +18626,6 @@
 	)
 	(label "VA6"
 		(at 85.725 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18645,7 +18636,6 @@
 	)
 	(label "CTD7"
 		(at 164.465 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18656,7 +18646,6 @@
 	)
 	(label "CTA10"
 		(at 191.77 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18667,7 +18656,6 @@
 	)
 	(label "VD15"
 		(at 63.5 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18678,7 +18666,6 @@
 	)
 	(label "PC6"
 		(at 25.4 66.675 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18689,7 +18676,6 @@
 	)
 	(label "CTD12"
 		(at 191.77 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18700,7 +18686,6 @@
 	)
 	(label "VD7"
 		(at 63.5 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18711,7 +18696,6 @@
 	)
 	(label "CTA8"
 		(at 164.465 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18722,7 +18706,6 @@
 	)
 	(label "VD1"
 		(at 63.5 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18733,7 +18716,6 @@
 	)
 	(label "VD2"
 		(at 63.5 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18744,7 +18726,6 @@
 	)
 	(label "VD5"
 		(at 63.5 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18755,7 +18736,6 @@
 	)
 	(label "PC4"
 		(at 25.4 61.595 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18766,7 +18746,6 @@
 	)
 	(label "VD12"
 		(at 63.5 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18777,7 +18756,6 @@
 	)
 	(label "VA11"
 		(at 85.725 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18788,7 +18766,6 @@
 	)
 	(label "PC3"
 		(at 25.4 59.055 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18799,7 +18776,6 @@
 	)
 	(label "CTD1"
 		(at 164.465 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18810,7 +18786,6 @@
 	)
 	(label "CTD13"
 		(at 191.77 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18821,7 +18796,6 @@
 	)
 	(label "XA22"
 		(at 344.805 206.375 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18832,7 +18806,6 @@
 	)
 	(label "PA5"
 		(at 312.42 53.975 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18843,7 +18816,6 @@
 	)
 	(label "VD4"
 		(at 63.5 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18854,7 +18826,6 @@
 	)
 	(label "VA10"
 		(at 85.725 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18865,7 +18836,6 @@
 	)
 	(label "VD0"
 		(at 63.5 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18876,7 +18846,6 @@
 	)
 	(label "PB2"
 		(at 312.42 78.105 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18887,7 +18856,6 @@
 	)
 	(label "CTA12"
 		(at 164.465 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18898,7 +18866,6 @@
 	)
 	(label "VD3"
 		(at 63.5 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18909,7 +18876,6 @@
 	)
 	(label "CTA15"
 		(at 164.465 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18920,7 +18886,6 @@
 	)
 	(label "CTA13"
 		(at 164.465 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18931,7 +18896,6 @@
 	)
 	(label "CTA11"
 		(at 164.465 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18942,7 +18906,6 @@
 	)
 	(label "VD8"
 		(at 63.5 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18953,7 +18916,6 @@
 	)
 	(label "CTA2"
 		(at 164.465 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18964,7 +18926,6 @@
 	)
 	(label "XA22"
 		(at 193.04 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18975,7 +18936,6 @@
 	)
 	(label "XA23"
 		(at 349.885 206.375 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18986,7 +18946,6 @@
 	)
 	(label "VA13"
 		(at 85.725 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18997,7 +18956,6 @@
 	)
 	(label "CTD14"
 		(at 191.77 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19008,7 +18966,6 @@
 	)
 	(label "CTA22"
 		(at 317.5 210.185 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19019,7 +18976,6 @@
 	)
 	(label "CTD9"
 		(at 164.465 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19030,7 +18986,6 @@
 	)
 	(label "PB0"
 		(at 312.42 73.025 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19041,7 +18996,6 @@
 	)
 	(label "CTA18"
 		(at 191.77 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19052,7 +19006,6 @@
 	)
 	(label "VA15"
 		(at 85.725 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19063,7 +19016,6 @@
 	)
 	(label "PC2"
 		(at 25.4 56.515 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19074,7 +19026,6 @@
 	)
 	(label "PC0"
 		(at 25.4 51.435 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19085,7 +19036,6 @@
 	)
 	(label "PB6"
 		(at 312.42 88.265 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19096,7 +19046,6 @@
 	)
 	(label "CTA1"
 		(at 164.465 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19107,7 +19056,6 @@
 	)
 	(label "PA0"
 		(at 312.42 33.655 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19118,7 +19066,6 @@
 	)
 	(label "PA2"
 		(at 312.42 38.735 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19129,7 +19076,6 @@
 	)
 	(label "PC1"
 		(at 25.4 53.975 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19140,7 +19086,6 @@
 	)
 	(label "VA3"
 		(at 85.725 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19151,7 +19096,6 @@
 	)
 	(label "VD13"
 		(at 63.5 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19162,7 +19106,6 @@
 	)
 	(label "CTA23"
 		(at 317.5 238.125 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19173,7 +19116,6 @@
 	)
 	(label "VD10"
 		(at 63.5 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19184,7 +19126,6 @@
 	)
 	(label "CTA3"
 		(at 164.465 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19195,7 +19136,6 @@
 	)
 	(label "VD6"
 		(at 63.5 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19206,7 +19146,6 @@
 	)
 	(label "PA4"
 		(at 312.42 46.355 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19217,7 +19156,6 @@
 	)
 	(label "VA4"
 		(at 85.725 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19228,7 +19166,6 @@
 	)
 	(label "PB1"
 		(at 312.42 75.565 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19239,7 +19176,6 @@
 	)
 	(label "VA12"
 		(at 85.725 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19250,7 +19186,6 @@
 	)
 	(label "VA2"
 		(at 85.725 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19261,7 +19196,6 @@
 	)
 	(label "CTD10"
 		(at 164.465 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19272,7 +19206,6 @@
 	)
 	(label "VD11"
 		(at 63.5 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19283,7 +19216,6 @@
 	)
 	(label "CTA20"
 		(at 191.77 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19294,7 +19226,6 @@
 	)
 	(label "VA21"
 		(at 370.84 224.155 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19305,7 +19236,6 @@
 	)
 	(label "CTA6"
 		(at 164.465 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19316,7 +19246,6 @@
 	)
 	(label "XA21"
 		(at 193.04 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19327,7 +19256,6 @@
 	)
 	(label "CTD3"
 		(at 164.465 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19338,7 +19266,6 @@
 	)
 	(label "PC5"
 		(at 25.4 64.135 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19349,7 +19276,6 @@
 	)
 	(label "CTA14"
 		(at 164.465 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19360,7 +19286,6 @@
 	)
 	(label "VA5"
 		(at 85.725 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19371,7 +19296,6 @@
 	)
 	(label "CTD6"
 		(at 164.465 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19382,7 +19306,6 @@
 	)
 	(label "PA3"
 		(at 312.42 41.275 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19393,7 +19316,6 @@
 	)
 	(label "CTA21"
 		(at 317.5 224.155 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19404,7 +19326,6 @@
 	)
 	(label "CTD4"
 		(at 164.465 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19415,7 +19336,6 @@
 	)
 	(label "CTA4"
 		(at 164.465 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19426,7 +19346,6 @@
 	)
 	(label "VA19"
 		(at 58.42 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19437,7 +19356,6 @@
 	)
 	(label "CTD0"
 		(at 164.465 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19448,7 +19366,6 @@
 	)
 	(label "VA9"
 		(at 85.725 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19459,7 +19376,6 @@
 	)
 	(label "VA1"
 		(at 85.725 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19470,7 +19386,6 @@
 	)
 	(label "PB4"
 		(at 312.42 85.725 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19481,7 +19396,6 @@
 	)
 	(label "CTD5"
 		(at 164.465 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19492,7 +19406,6 @@
 	)
 	(label "CTD11"
 		(at 164.465 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19503,7 +19416,6 @@
 	)
 	(label "CTD2"
 		(at 164.465 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19514,7 +19426,6 @@
 	)
 	(label "CTA9"
 		(at 191.77 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19525,7 +19436,6 @@
 	)
 	(label "~{PWR_EN}"
 		(at 53.975 252.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19536,7 +19446,6 @@
 	)
 	(label "XA21"
 		(at 347.345 206.375 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19547,7 +19456,6 @@
 	)
 	(label "PA1"
 		(at 312.42 36.195 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19558,7 +19466,6 @@
 	)
 	(label "XA23"
 		(at 193.04 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19569,7 +19476,6 @@
 	)
 	(label "VA23"
 		(at 370.84 238.125 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19580,7 +19486,6 @@
 	)
 	(label "CTD8"
 		(at 164.465 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19591,7 +19496,6 @@
 	)
 	(label "PA6"
 		(at 312.42 48.895 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19602,7 +19506,6 @@
 	)
 	(label "CTD15"
 		(at 191.77 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19613,7 +19516,6 @@
 	)
 	(label "VD9"
 		(at 63.5 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19624,7 +19526,6 @@
 	)
 	(label "VA14"
 		(at 85.725 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19635,7 +19536,6 @@
 	)
 	(label "CTA16"
 		(at 164.465 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19646,7 +19546,6 @@
 	)
 	(label "CTA5"
 		(at 164.465 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19657,7 +19556,6 @@
 	)
 	(label "CTA19"
 		(at 191.77 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19668,7 +19566,6 @@
 	)
 	(label "PB5"
 		(at 312.42 93.345 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19679,7 +19576,6 @@
 	)
 	(label "PB3"
 		(at 312.42 80.645 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19690,7 +19586,6 @@
 	)
 	(label "VD14"
 		(at 63.5 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

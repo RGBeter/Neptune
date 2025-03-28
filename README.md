@@ -83,8 +83,9 @@ info below in the build notes).
 
 ## Bill of Materials
 
-For a complete BOM, consult the generated [Interactive BOM][IBOM] or the KiCad
-project itself. Parts are numbered according to the following scheme:
+For a complete BOM, consult the KiCad project itself. For assembly you may wish
+to use the generated [Interactive BOM][IBOM] but this is not as detailed. Parts
+are numbered according to the following scheme:
 
 | Number  | Description                                        |
 |:-------:|:---------------------------------------------------|
@@ -104,10 +105,15 @@ schematics. It is probably not feasible to list the differences between all poss
 revisions but should you work out a solution for a particular donor board, please
 let us know so we can include it in this documentation.
 
+Parts marked "\*" have different values based on region or revision, or may not be
+present on some revisions, so refer to the schematic and your donor hardware.
 Parts marked "PAL" on the board are supposedly only used on PAL Mega Drives. Parts
 marked "VA0" and "VA1" are for those revisions of 32X only. However, should your
 donor hardware have any of these parts it would seem wise to transfer them to the
-new board regardless of the original region/revision.
+new board regardless of the original region/revision. When in doubt just remember
+that, when it come to original parts, in essence it is about moving the donors'
+parts to the new board. If it's on the donor, use it; if it's not, then it was never
+required in the first place.
 
 For 32X main boards with the SCA chip, pay particular attention to `D699`. If your
 donor 32X has a THT diode for `/VRES` on the main board you will need to install this

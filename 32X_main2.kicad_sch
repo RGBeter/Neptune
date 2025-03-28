@@ -7,7 +7,7 @@
 	(title_block
 		(title "32X Main 2")
 		(date "2023-11-29")
-		(rev "1.2a")
+		(rev "1.3")
 		(company "By Cosam")
 		(comment 1 "Neptune")
 	)
@@ -25786,7 +25786,6 @@
 	)
 	(label "SHA21"
 		(at 95.25 167.005 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25797,7 +25796,6 @@
 	)
 	(label "OD7"
 		(at 271.78 100.965 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25808,7 +25806,6 @@
 	)
 	(label "SHD8"
 		(at 97.155 50.165 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25819,7 +25816,6 @@
 	)
 	(label "SHD8"
 		(at 26.67 50.165 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25830,7 +25826,6 @@
 	)
 	(label "SHD15"
 		(at 26.67 67.945 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25841,7 +25836,6 @@
 	)
 	(label "ED7"
 		(at 332.105 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25852,7 +25846,6 @@
 	)
 	(label "SHD1"
 		(at 168.275 182.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25863,7 +25856,6 @@
 	)
 	(label "SHD8"
 		(at 214.63 50.165 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25874,7 +25866,6 @@
 	)
 	(label "SHA8"
 		(at 95.25 133.985 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25885,7 +25876,6 @@
 	)
 	(label "OD0"
 		(at 332.105 40.005 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25896,7 +25886,6 @@
 	)
 	(label "SHA14"
 		(at 168.275 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25907,7 +25896,6 @@
 	)
 	(label "ED2"
 		(at 332.105 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25918,7 +25906,6 @@
 	)
 	(label "SHD0"
 		(at 168.275 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25929,7 +25916,6 @@
 	)
 	(label "SHA20"
 		(at 95.25 164.465 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25940,7 +25926,6 @@
 	)
 	(label "SHD14"
 		(at 214.63 65.405 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25951,7 +25936,6 @@
 	)
 	(label "SHD10"
 		(at 26.67 55.245 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25962,7 +25946,6 @@
 	)
 	(label "SHD2"
 		(at 214.63 34.925 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25973,7 +25956,6 @@
 	)
 	(label "SHA12"
 		(at 168.275 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25984,7 +25966,6 @@
 	)
 	(label "SHA3"
 		(at 168.275 34.925 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25995,7 +25976,6 @@
 	)
 	(label "OD1"
 		(at 332.105 42.545 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26006,7 +25986,6 @@
 	)
 	(label "OD[0..15]"
 		(at 286.258 125.095 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26017,7 +25996,6 @@
 	)
 	(label "SHD12"
 		(at 168.275 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26028,7 +26006,6 @@
 	)
 	(label "OD4"
 		(at 271.78 93.345 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26039,7 +26016,6 @@
 	)
 	(label "SHD3"
 		(at 214.63 37.465 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26050,7 +26026,6 @@
 	)
 	(label "ED11"
 		(at 332.105 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26061,7 +26036,6 @@
 	)
 	(label "SHD15"
 		(at 214.63 67.945 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26072,7 +26046,6 @@
 	)
 	(label "SHA17"
 		(at 95.25 156.845 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26083,7 +26056,6 @@
 	)
 	(label "SHA14"
 		(at 95.25 149.225 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26094,7 +26066,6 @@
 	)
 	(label "SHD7"
 		(at 214.63 47.625 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26105,7 +26076,6 @@
 	)
 	(label "ED12"
 		(at 332.105 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26116,7 +26086,6 @@
 	)
 	(label "ED2"
 		(at 271.78 182.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26127,7 +26096,6 @@
 	)
 	(label "SHA21"
 		(at 24.765 167.005 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26138,7 +26106,6 @@
 	)
 	(label "SHD13"
 		(at 214.63 62.865 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26149,7 +26116,6 @@
 	)
 	(label "ED14"
 		(at 332.105 170.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26160,7 +26126,6 @@
 	)
 	(label "OD7"
 		(at 332.105 57.785 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26171,7 +26136,6 @@
 	)
 	(label "SHA5"
 		(at 168.275 40.005 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26182,7 +26146,6 @@
 	)
 	(label "ED15"
 		(at 332.105 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26193,7 +26156,6 @@
 	)
 	(label "SHD8"
 		(at 168.275 200.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26204,7 +26166,6 @@
 	)
 	(label "SHA13"
 		(at 95.25 146.685 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26215,7 +26176,6 @@
 	)
 	(label "SHA9"
 		(at 168.275 50.165 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26226,7 +26186,6 @@
 	)
 	(label "OD10"
 		(at 332.105 65.405 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26237,7 +26196,6 @@
 	)
 	(label "SHD7"
 		(at 168.275 198.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26248,7 +26206,6 @@
 	)
 	(label "OD3"
 		(at 332.105 47.625 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26259,7 +26216,6 @@
 	)
 	(label "SHA11"
 		(at 95.25 141.605 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26270,7 +26226,6 @@
 	)
 	(label "SHD3"
 		(at 97.155 37.465 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26281,7 +26236,6 @@
 	)
 	(label "SHD9"
 		(at 97.155 52.705 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26292,7 +26246,6 @@
 	)
 	(label "SHD3"
 		(at 168.275 187.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26303,7 +26256,6 @@
 	)
 	(label "ED4"
 		(at 271.78 187.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26314,7 +26266,6 @@
 	)
 	(label "SHA18"
 		(at 24.765 159.385 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26325,7 +26276,6 @@
 	)
 	(label "OD9"
 		(at 271.78 106.045 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26336,7 +26286,6 @@
 	)
 	(label "ED7"
 		(at 271.78 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26347,7 +26296,6 @@
 	)
 	(label "SHA10"
 		(at 95.25 139.065 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26358,7 +26306,6 @@
 	)
 	(label "SHD13"
 		(at 168.275 213.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26369,7 +26316,6 @@
 	)
 	(label "SHD2"
 		(at 26.67 34.925 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26380,7 +26326,6 @@
 	)
 	(label "SHA1"
 		(at 24.765 116.205 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26391,7 +26336,6 @@
 	)
 	(label "SHD0"
 		(at 26.67 29.845 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26402,7 +26346,6 @@
 	)
 	(label "SHA10"
 		(at 24.765 139.065 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26413,7 +26356,6 @@
 	)
 	(label "ED1"
 		(at 271.78 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26424,7 +26366,6 @@
 	)
 	(label "SHD11"
 		(at 97.155 57.785 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26435,7 +26376,6 @@
 	)
 	(label "OD14"
 		(at 271.78 118.745 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26446,7 +26386,6 @@
 	)
 	(label "OD12"
 		(at 271.78 113.665 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26457,7 +26396,6 @@
 	)
 	(label "SHD6"
 		(at 168.275 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26468,7 +26406,6 @@
 	)
 	(label "SHA7"
 		(at 168.275 45.085 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26479,7 +26416,6 @@
 	)
 	(label "OD14"
 		(at 332.105 75.565 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26490,7 +26426,6 @@
 	)
 	(label "SHD0"
 		(at 214.63 29.845 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26501,7 +26436,6 @@
 	)
 	(label "SHA3"
 		(at 95.25 121.285 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26512,7 +26446,6 @@
 	)
 	(label "OD3"
 		(at 271.78 90.805 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26523,7 +26456,6 @@
 	)
 	(label "ED10"
 		(at 332.105 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26534,7 +26466,6 @@
 	)
 	(label "SHA3"
 		(at 168.275 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26545,7 +26476,6 @@
 	)
 	(label "SHA6"
 		(at 168.275 42.545 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26556,7 +26486,6 @@
 	)
 	(label "ED9"
 		(at 271.78 200.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26567,7 +26496,6 @@
 	)
 	(label "SHA9"
 		(at 168.275 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26578,7 +26506,6 @@
 	)
 	(label "SHA3"
 		(at 24.765 121.285 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26589,7 +26516,6 @@
 	)
 	(label "SHD6"
 		(at 97.155 45.085 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26600,7 +26526,6 @@
 	)
 	(label "SHA15"
 		(at 24.765 151.765 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26611,7 +26536,6 @@
 	)
 	(label "SHA19"
 		(at 95.25 161.925 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26622,7 +26546,6 @@
 	)
 	(label "SHA10"
 		(at 168.275 52.705 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26633,7 +26556,6 @@
 	)
 	(label "SHA1"
 		(at 168.275 29.845 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26644,7 +26566,6 @@
 	)
 	(label "SHD12"
 		(at 214.63 60.325 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26655,7 +26576,6 @@
 	)
 	(label "ED0"
 		(at 332.105 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26666,7 +26586,6 @@
 	)
 	(label "SHD1"
 		(at 97.155 32.385 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26677,7 +26596,6 @@
 	)
 	(label "ED10"
 		(at 271.78 203.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26688,7 +26606,6 @@
 	)
 	(label "SHA14"
 		(at 24.765 149.225 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26699,7 +26616,6 @@
 	)
 	(label "SHA16"
 		(at 168.275 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26710,7 +26626,6 @@
 	)
 	(label "SHA10"
 		(at 168.275 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26721,7 +26636,6 @@
 	)
 	(label "SHA17"
 		(at 24.765 156.845 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26732,7 +26646,6 @@
 	)
 	(label "SHA5"
 		(at 168.275 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26743,7 +26656,6 @@
 	)
 	(label "SHA7"
 		(at 168.275 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26754,7 +26666,6 @@
 	)
 	(label "SHA17"
 		(at 168.275 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26765,7 +26676,6 @@
 	)
 	(label "SHD12"
 		(at 26.67 60.325 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26776,7 +26686,6 @@
 	)
 	(label "SHA18"
 		(at 95.25 159.385 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26787,7 +26696,6 @@
 	)
 	(label "OD8"
 		(at 332.105 60.325 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26798,7 +26706,6 @@
 	)
 	(label "SHD4"
 		(at 214.63 40.005 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26809,7 +26716,6 @@
 	)
 	(label "SHA16"
 		(at 95.25 154.305 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26820,7 +26726,6 @@
 	)
 	(label "SHD11"
 		(at 26.67 57.785 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26831,7 +26736,6 @@
 	)
 	(label "OD6"
 		(at 271.78 98.425 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26842,7 +26746,6 @@
 	)
 	(label "SHD5"
 		(at 214.63 42.545 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26853,7 +26756,6 @@
 	)
 	(label "SHA5"
 		(at 95.25 126.365 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26864,7 +26766,6 @@
 	)
 	(label "OD1"
 		(at 271.78 85.725 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26875,7 +26776,6 @@
 	)
 	(label "SHD6"
 		(at 26.67 45.085 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26886,7 +26786,6 @@
 	)
 	(label "SHA20"
 		(at 24.765 164.465 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26897,7 +26796,6 @@
 	)
 	(label "SHA7"
 		(at 95.25 131.445 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26908,7 +26806,6 @@
 	)
 	(label "SHA15"
 		(at 168.275 170.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26919,7 +26816,6 @@
 	)
 	(label "ED13"
 		(at 332.105 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26930,7 +26826,6 @@
 	)
 	(label "OD2"
 		(at 271.78 88.265 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26941,7 +26836,6 @@
 	)
 	(label "SHA13"
 		(at 168.275 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26952,7 +26846,6 @@
 	)
 	(label "SHD4"
 		(at 168.275 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26963,7 +26856,6 @@
 	)
 	(label "SHA16"
 		(at 24.765 154.305 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26974,7 +26866,6 @@
 	)
 	(label "OD8"
 		(at 271.78 103.505 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26985,7 +26876,6 @@
 	)
 	(label "SHD13"
 		(at 97.155 62.865 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26996,7 +26886,6 @@
 	)
 	(label "SHA7"
 		(at 24.765 131.445 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27007,7 +26896,6 @@
 	)
 	(label "SHA12"
 		(at 24.765 144.145 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27018,7 +26906,6 @@
 	)
 	(label "SHA1"
 		(at 95.25 116.205 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27029,7 +26916,6 @@
 	)
 	(label "OD11"
 		(at 271.78 111.125 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27040,7 +26926,6 @@
 	)
 	(label "ED1"
 		(at 332.105 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27051,7 +26936,6 @@
 	)
 	(label "SHD10"
 		(at 214.63 55.245 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27062,7 +26946,6 @@
 	)
 	(label "OD6"
 		(at 332.105 55.245 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27073,7 +26956,6 @@
 	)
 	(label "OD4"
 		(at 332.105 50.165 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27084,7 +26966,6 @@
 	)
 	(label "ED5"
 		(at 271.78 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27095,7 +26976,6 @@
 	)
 	(label "ED5"
 		(at 332.105 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27106,7 +26986,6 @@
 	)
 	(label "OD12"
 		(at 332.105 70.485 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27117,7 +26996,6 @@
 	)
 	(label "SHA4"
 		(at 168.275 37.465 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27128,7 +27006,6 @@
 	)
 	(label "SHA4"
 		(at 168.275 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27139,7 +27016,6 @@
 	)
 	(label "ED8"
 		(at 271.78 198.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27150,7 +27026,6 @@
 	)
 	(label "SHA11"
 		(at 24.765 141.605 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27161,7 +27036,6 @@
 	)
 	(label "ED15"
 		(at 271.78 215.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27172,7 +27046,6 @@
 	)
 	(label "SHA2"
 		(at 24.765 118.745 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27183,7 +27056,6 @@
 	)
 	(label "SHA1"
 		(at 168.275 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27194,7 +27066,6 @@
 	)
 	(label "ED4"
 		(at 332.105 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27205,7 +27076,6 @@
 	)
 	(label "OD15"
 		(at 271.78 121.285 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27216,7 +27086,6 @@
 	)
 	(label "OD10"
 		(at 271.78 108.585 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27227,7 +27096,6 @@
 	)
 	(label "SHD0"
 		(at 97.155 29.845 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27238,7 +27106,6 @@
 	)
 	(label "SHD14"
 		(at 26.67 65.405 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27249,7 +27116,6 @@
 	)
 	(label "SHD9"
 		(at 214.63 52.705 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27260,7 +27126,6 @@
 	)
 	(label "ED13"
 		(at 271.78 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27271,7 +27136,6 @@
 	)
 	(label "SHD4"
 		(at 26.67 40.005 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27282,7 +27146,6 @@
 	)
 	(label "OD13"
 		(at 271.78 116.205 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27293,7 +27156,6 @@
 	)
 	(label "SHA5"
 		(at 24.765 126.365 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27304,7 +27166,6 @@
 	)
 	(label "OD5"
 		(at 332.105 52.705 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27315,7 +27176,6 @@
 	)
 	(label "SHA2"
 		(at 168.275 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27326,7 +27186,6 @@
 	)
 	(label "SHD10"
 		(at 168.275 205.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27337,7 +27196,6 @@
 	)
 	(label "ED9"
 		(at 332.105 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27348,7 +27206,6 @@
 	)
 	(label "ED8"
 		(at 332.105 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27359,7 +27216,6 @@
 	)
 	(label "SHD1"
 		(at 26.67 32.385 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27370,7 +27226,6 @@
 	)
 	(label "OD0"
 		(at 271.78 83.185 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27381,7 +27236,6 @@
 	)
 	(label "SHD5"
 		(at 26.67 42.545 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27392,7 +27246,6 @@
 	)
 	(label "SHA8"
 		(at 168.275 47.625 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27403,7 +27256,6 @@
 	)
 	(label "SHD15"
 		(at 97.155 67.945 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27414,7 +27266,6 @@
 	)
 	(label "SHA11"
 		(at 168.275 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27425,7 +27276,6 @@
 	)
 	(label "SHD4"
 		(at 97.155 40.005 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27436,7 +27286,6 @@
 	)
 	(label "SHA8"
 		(at 168.275 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27447,7 +27296,6 @@
 	)
 	(label "SHD9"
 		(at 26.67 52.705 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27458,7 +27306,6 @@
 	)
 	(label "SHD14"
 		(at 97.155 65.405 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27469,7 +27316,6 @@
 	)
 	(label "SHA13"
 		(at 24.765 146.685 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27480,7 +27326,6 @@
 	)
 	(label "ED6"
 		(at 332.105 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27491,7 +27336,6 @@
 	)
 	(label "OD5"
 		(at 271.78 95.885 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27502,7 +27346,6 @@
 	)
 	(label "SHD12"
 		(at 97.155 60.325 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27513,7 +27356,6 @@
 	)
 	(label "OD2"
 		(at 332.105 45.085 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27524,7 +27366,6 @@
 	)
 	(label "SHA9"
 		(at 95.25 136.525 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27535,7 +27376,6 @@
 	)
 	(label "SHD9"
 		(at 168.275 203.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27546,7 +27386,6 @@
 	)
 	(label "SHD5"
 		(at 168.275 193.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27557,7 +27396,6 @@
 	)
 	(label "SHD14"
 		(at 168.275 215.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27568,7 +27406,6 @@
 	)
 	(label "OD11"
 		(at 332.105 67.945 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27579,7 +27416,6 @@
 	)
 	(label "SHA6"
 		(at 168.275 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27590,7 +27426,6 @@
 	)
 	(label "SHD15"
 		(at 168.275 218.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27601,7 +27436,6 @@
 	)
 	(label "SHD2"
 		(at 97.155 34.925 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27612,7 +27446,6 @@
 	)
 	(label "ED12"
 		(at 271.78 208.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27623,7 +27456,6 @@
 	)
 	(label "SHA15"
 		(at 95.25 151.765 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27634,7 +27466,6 @@
 	)
 	(label "SHD6"
 		(at 214.63 45.085 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27645,7 +27476,6 @@
 	)
 	(label "ED14"
 		(at 271.78 213.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27656,7 +27486,6 @@
 	)
 	(label "SHA6"
 		(at 95.25 128.905 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27667,7 +27496,6 @@
 	)
 	(label "SHA2"
 		(at 168.275 32.385 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27678,7 +27506,6 @@
 	)
 	(label "SHD11"
 		(at 214.63 57.785 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27689,7 +27516,6 @@
 	)
 	(label "OD15"
 		(at 332.105 78.105 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27700,7 +27526,6 @@
 	)
 	(label "ED0"
 		(at 271.78 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27711,7 +27536,6 @@
 	)
 	(label "SHD1"
 		(at 214.63 32.385 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27722,7 +27546,6 @@
 	)
 	(label "SHA8"
 		(at 24.765 133.985 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27733,7 +27556,6 @@
 	)
 	(label "SHD7"
 		(at 97.155 47.625 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27744,7 +27566,6 @@
 	)
 	(label "SHD7"
 		(at 26.67 47.625 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27755,7 +27576,6 @@
 	)
 	(label "OD9"
 		(at 332.105 62.865 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27766,7 +27586,6 @@
 	)
 	(label "ED3"
 		(at 271.78 185.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27777,7 +27596,6 @@
 	)
 	(label "OD13"
 		(at 332.105 73.025 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27788,7 +27606,6 @@
 	)
 	(label "SHA4"
 		(at 95.25 123.825 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27799,7 +27616,6 @@
 	)
 	(label "SHA2"
 		(at 95.25 118.745 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27810,7 +27626,6 @@
 	)
 	(label "ED[0..15]"
 		(at 287.02 219.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27821,7 +27636,6 @@
 	)
 	(label "SHD3"
 		(at 26.67 37.465 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27832,7 +27646,6 @@
 	)
 	(label "SHD5"
 		(at 97.155 42.545 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27843,7 +27656,6 @@
 	)
 	(label "ED6"
 		(at 271.78 193.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27854,7 +27666,6 @@
 	)
 	(label "SHA19"
 		(at 24.765 161.925 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27865,7 +27676,6 @@
 	)
 	(label "ED11"
 		(at 271.78 205.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27876,7 +27686,6 @@
 	)
 	(label "SHD10"
 		(at 97.155 55.245 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27887,7 +27696,6 @@
 	)
 	(label "SHA12"
 		(at 95.25 144.145 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27898,7 +27706,6 @@
 	)
 	(label "SHA6"
 		(at 24.765 128.905 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27909,7 +27716,6 @@
 	)
 	(label "SHA9"
 		(at 24.765 136.525 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27920,7 +27726,6 @@
 	)
 	(label "ED3"
 		(at 332.105 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27931,7 +27736,6 @@
 	)
 	(label "SHD13"
 		(at 26.67 62.865 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27942,7 +27746,6 @@
 	)
 	(label "SHD11"
 		(at 168.275 208.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27953,7 +27756,6 @@
 	)
 	(label "SHA4"
 		(at 24.765 123.825 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27964,7 +27766,6 @@
 	)
 	(label "SHD2"
 		(at 168.275 185.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

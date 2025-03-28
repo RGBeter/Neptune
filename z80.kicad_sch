@@ -7,7 +7,7 @@
 	(title_block
 		(title "Z80 and Audio")
 		(date "2023-11-29")
-		(rev "1.2a")
+		(rev "1.3")
 		(company "By Cosam")
 		(comment 1 "Neptune")
 	)
@@ -6444,7 +6444,6 @@
 	)
 	(label "ZD6"
 		(at 234.95 118.11 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6455,7 +6454,6 @@
 	)
 	(label "ZA5"
 		(at 132.715 65.405 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6466,7 +6464,6 @@
 	)
 	(label "ZD0"
 		(at 179.705 52.705 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6477,7 +6474,6 @@
 	)
 	(label "ZA3"
 		(at 132.715 60.325 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6488,7 +6484,6 @@
 	)
 	(label "ZD2"
 		(at 179.705 57.785 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6499,7 +6494,6 @@
 	)
 	(label "ZA0"
 		(at 132.715 52.705 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6510,7 +6504,6 @@
 	)
 	(label "ZD7"
 		(at 232.41 118.11 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6521,7 +6514,6 @@
 	)
 	(label "ZD4"
 		(at 240.03 118.11 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6532,7 +6524,6 @@
 	)
 	(label "ZA11"
 		(at 97.155 80.645 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6543,7 +6534,6 @@
 	)
 	(label "ZA15"
 		(at 97.155 90.805 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6554,7 +6544,6 @@
 	)
 	(label "ZA1"
 		(at 132.715 55.245 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6565,7 +6554,6 @@
 	)
 	(label "ZA9"
 		(at 132.715 75.565 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6576,7 +6564,6 @@
 	)
 	(label "ZD3"
 		(at 217.17 118.11 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6587,7 +6574,6 @@
 	)
 	(label "ZA12"
 		(at 97.155 83.185 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6598,7 +6584,6 @@
 	)
 	(label "ZA4"
 		(at 97.155 62.865 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6609,7 +6594,6 @@
 	)
 	(label "ZD3"
 		(at 97.155 103.505 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6620,7 +6604,6 @@
 	)
 	(label "ZA9"
 		(at 97.155 75.565 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6631,7 +6614,6 @@
 	)
 	(label "ZD1"
 		(at 212.09 118.11 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6642,7 +6624,6 @@
 	)
 	(label "ZD1"
 		(at 97.155 98.425 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6653,7 +6634,6 @@
 	)
 	(label "ZA1"
 		(at 97.155 55.245 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6664,7 +6644,6 @@
 	)
 	(label "ZA6"
 		(at 132.715 67.945 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6675,7 +6654,6 @@
 	)
 	(label "ZD5"
 		(at 179.705 65.405 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6686,7 +6664,6 @@
 	)
 	(label "ZA4"
 		(at 132.715 62.865 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6697,7 +6674,6 @@
 	)
 	(label "ZD6"
 		(at 179.705 67.945 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6708,7 +6684,6 @@
 	)
 	(label "ZA2"
 		(at 132.715 57.785 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6719,7 +6694,6 @@
 	)
 	(label "ZA12"
 		(at 132.715 83.185 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6730,7 +6704,6 @@
 	)
 	(label "ZA13"
 		(at 97.155 85.725 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6741,7 +6714,6 @@
 	)
 	(label "ZD1"
 		(at 179.705 55.245 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6752,7 +6724,6 @@
 	)
 	(label "ZD0"
 		(at 209.55 118.11 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6763,7 +6734,6 @@
 	)
 	(label "ZA11"
 		(at 132.715 80.645 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6774,7 +6744,6 @@
 	)
 	(label "ZD7"
 		(at 97.155 113.665 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6785,7 +6754,6 @@
 	)
 	(label "ZD6"
 		(at 97.155 111.125 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6796,7 +6764,6 @@
 	)
 	(label "ZA14"
 		(at 97.155 88.265 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6807,7 +6774,6 @@
 	)
 	(label "ZA10"
 		(at 97.155 78.105 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6818,7 +6784,6 @@
 	)
 	(label "ZD7"
 		(at 179.705 70.485 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6829,7 +6794,6 @@
 	)
 	(label "ZA8"
 		(at 97.155 73.025 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6840,7 +6804,6 @@
 	)
 	(label "ZA10"
 		(at 132.715 78.105 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6851,7 +6814,6 @@
 	)
 	(label "ZA5"
 		(at 97.155 65.405 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6862,7 +6824,6 @@
 	)
 	(label "ZA8"
 		(at 132.715 73.025 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6873,7 +6834,6 @@
 	)
 	(label "ZA2"
 		(at 97.155 57.785 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6884,7 +6844,6 @@
 	)
 	(label "ZA0"
 		(at 97.155 52.705 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6895,7 +6854,6 @@
 	)
 	(label "ZD3"
 		(at 179.705 60.325 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6906,7 +6864,6 @@
 	)
 	(label "ZD5"
 		(at 97.155 108.585 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6917,7 +6874,6 @@
 	)
 	(label "ZA7"
 		(at 132.715 70.485 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6928,7 +6884,6 @@
 	)
 	(label "ZD4"
 		(at 179.705 62.865 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6939,7 +6894,6 @@
 	)
 	(label "ZD4"
 		(at 97.155 106.045 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6950,7 +6904,6 @@
 	)
 	(label "ZA6"
 		(at 97.155 67.945 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6961,7 +6914,6 @@
 	)
 	(label "ZD0"
 		(at 97.155 95.885 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6972,7 +6924,6 @@
 	)
 	(label "ZA7"
 		(at 97.155 70.485 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6983,7 +6934,6 @@
 	)
 	(label "ZD2"
 		(at 97.155 100.965 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6994,7 +6944,6 @@
 	)
 	(label "ZA3"
 		(at 97.155 60.325 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7005,7 +6954,6 @@
 	)
 	(label "ZD5"
 		(at 237.49 118.11 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7016,7 +6964,6 @@
 	)
 	(label "ZD2"
 		(at 214.63 118.11 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
