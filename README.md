@@ -144,6 +144,9 @@ flowing nicely, this may well be the problem.
   diagnostics using your particular flash cart, consider a simpler single-image
   (i.e. no menu) one or something EPROM-based.
 
+* Macho Nacho Productions has an [informative video][MachoNachoVideo] on the build
+  process you may like to check out to get a general idea of what's required.
+
 * The ICs on at least one side of the 32X main board (the "cartridge" part) are glued
   on making removal tricky. The glue can be softened using isopropyl alcohol, so you
   may want to give the board soak in this before starting to avoid having to use too
@@ -233,7 +236,7 @@ testing and troubleshooting. The following is a suggested order of operations.
 
   * Zaxour for the power circuit design, invaluable support and hardware review.
 
-  * Chrissy (@chris_jh) for testing, support and work on making pre-assembled PCBs
+  * Chrissy (@chris\_jh) for testing, support and work on making pre-assembled PCBs
     possible.
 
   * Leo Oliveira, Simon "Aergan" Lock, Ian (@grandoldian) and Dennis (@PointerFunction)
@@ -269,3 +272,4 @@ of merchantability and fitness for a particular purpose.
 [Revisions]: https://segaretro.org/Sega_Mega_Drive/Hardware_revisions
 [ASICs]: https://consolemods.org/wiki/Genesis:ASIC_Information
 [240p]: https://junkerhq.net/xrgb/index.php?title=240p_test_suite
+[MachoNachoVideo]: https://youtu.be/PcP60-0NIEw
