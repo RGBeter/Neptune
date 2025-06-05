@@ -22,6 +22,19 @@ in the board's design or have suggestions for improvements, please feel free to
 submit an issue.
 
 
+## Errata
+
+When using anything other than the latest release, check against this table if there
+are any outstanding fixes that should be applied to your particular board revision.
+
+| Issue          | Description                          | Affected Revisions  | Service Bulletin           |
+|----------------|--------------------------------------|---------------------|----------------------------|
+| [#3][Issue3]   | Region/version register instability. | <= r1.3 (Sept 2024) | [CSB_NEP_001][CSB_NEP_001] |
+
+[Issue3]: https://github.com/Board-Folk/Neptune/issues/3
+[CSB_NEP_001]: https://raw.githubusercontent.com/Board-Folk/Neptune/master/service/CSB_NEP_001.pdf
+
+
 ## Features and Limitations
 
 * Fits original Mega Drive 2 (PAL), Genesis 2 or DVIZIX Neptune cases. Separate
@@ -241,6 +254,10 @@ testing and troubleshooting. The following is a suggested order of operations.
 
   * Leo Oliveira, Simon "Aergan" Lock, Ian (@grandoldian) and Dennis (@PointerFunction)
     for their insights, support and assistance during testing.
+
+  * dr-goobur for diagnosing and providing the elusive fix for the mysterious "region
+    flicker" issue, supported by noobguy57, angelsix, v00dooperson and many more
+    behind the scenes.
 
   * The rest of the Board Folk for their support and general coolness.
 
