@@ -30,8 +30,10 @@ fp-info-cache
 #*.xml
 #*.csv
 
-# Gerber archive
-*gerbers.zip
+# Gerber dir/archives
+*gerbers*
+
+*schematic*.pdf
 
 # JLC Production
 jlcpcb/
