@@ -419,26 +419,26 @@
 		(uuid "524af566-6e83-4636-91b0-077e0810c50d")
 	)
 	(fp_text user "DIP-8"
-		(at 7.62 -3.81 90)
+		(at 6.096 -3.81 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "a153cb7f-1554-4602-9a8d-b126df4a36cc")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
 	(fp_text user "DIP-14"
-		(at 0 -3.81 90)
+		(at -1.778 -3.81 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "e6ca1bcf-3be6-43a1-bb55-3c73dc6294cb")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
