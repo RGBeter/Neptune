@@ -6638,7 +6638,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.315 71.12) (xy 363.855 71.12)
+			(xy 361.95 71.12) (xy 363.855 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6808,6 +6808,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 48.26) (xy 367.665 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e9ec565-6b22-489c-a4a2-06004661d82c")
+	)
+	(wire
+		(pts
 			(xy 97.155 152.4) (xy 97.155 154.305)
 		)
 		(stroke
@@ -6948,16 +6958,6 @@
 	)
 	(wire
 		(pts
-			(xy 361.315 48.26) (xy 367.665 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45be0eda-0286-48b0-9e0f-c84184a098b4")
-	)
-	(wire
-		(pts
 			(xy 252.73 140.335) (xy 252.73 142.24)
 		)
 		(stroke
@@ -6978,7 +6978,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 71.12) (xy 353.695 71.12)
+			(xy 351.79 71.12) (xy 354.33 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6998,7 +6998,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 48.26) (xy 330.835 48.26)
+			(xy 326.39 48.26) (xy 330.2 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7828,7 +7828,7 @@
 	)
 	(wire
 		(pts
-			(xy 338.455 60.96) (xy 340.36 60.96)
+			(xy 337.82 60.96) (xy 340.36 60.96)
 		)
 		(stroke
 			(width 0)
@@ -9518,7 +9518,7 @@
 	)
 	(wire
 		(pts
-			(xy 338.455 48.26) (xy 353.695 48.26)
+			(xy 337.82 48.26) (xy 354.33 48.26)
 		)
 		(stroke
 			(width 0)
@@ -10048,7 +10048,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 60.96) (xy 330.835 60.96)
+			(xy 326.39 60.96) (xy 330.2 60.96)
 		)
 		(stroke
 			(width 0)
@@ -12116,7 +12116,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 357.505 71.12 90)
+		(at 358.14 71.12 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12125,7 +12125,7 @@
 		(dnp no)
 		(uuid "28b1355f-c033-4eaa-859d-566c836c5307")
 		(property "Reference" "C575"
-			(at 357.505 74.93 90)
+			(at 358.14 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12133,7 +12133,7 @@
 			)
 		)
 		(property "Value" "*10"
-			(at 357.505 77.47 90)
+			(at 358.14 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12141,7 +12141,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 361.315 72.0852 0)
+			(at 361.95 72.0852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12150,7 +12150,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 357.505 71.12 0)
+			(at 358.14 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12159,7 +12159,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 357.505 71.12 0)
+			(at 358.14 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12168,7 +12168,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 357.505 71.12 0)
+			(at 358.14 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12177,7 +12177,7 @@
 			)
 		)
 		(property "LCSC Part #" "C437549"
-			(at 357.505 71.12 0)
+			(at 358.14 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12186,7 +12186,7 @@
 			)
 		)
 		(property "MPN" "GRM21A5C2E470JW01D"
-			(at 357.505 71.12 0)
+			(at 358.14 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14155,7 +14155,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 334.645 60.96 90)
+		(at 334.01 60.96 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14164,7 +14164,7 @@
 		(dnp no)
 		(uuid "57ab6198-8f6c-4b6e-9edd-a932085071a9")
 		(property "Reference" "R545"
-			(at 334.645 64.135 90)
+			(at 334.01 64.135 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14172,7 +14172,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 334.645 66.675 90)
+			(at 334.01 66.675 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14180,7 +14180,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 334.645 59.182 90)
+			(at 334.01 59.182 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14189,7 +14189,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 334.645 60.96 0)
+			(at 334.01 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14198,7 +14198,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 334.645 60.96 0)
+			(at 334.01 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14207,7 +14207,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 334.645 60.96 0)
+			(at 334.01 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14216,7 +14216,7 @@
 			)
 		)
 		(property "LCSC Part #" "C96345"
-			(at 334.645 60.96 0)
+			(at 334.01 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14225,7 +14225,7 @@
 			)
 		)
 		(property "MPN" "RCG08050000Z0EA"
-			(at 334.645 60.96 0)
+			(at 334.01 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15478,7 +15478,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 357.505 48.26 90)
+		(at 334.01 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15486,7 +15486,7 @@
 		(dnp no)
 		(uuid "6785a0e7-0546-4723-ab67-96f91b14d7ea")
 		(property "Reference" "R544"
-			(at 357.505 50.8 90)
+			(at 334.01 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15494,7 +15494,7 @@
 			)
 		)
 		(property "Value" "75"
-			(at 357.505 53.34 90)
+			(at 334.01 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15502,7 +15502,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 357.505 50.038 90)
+			(at 334.01 50.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15511,7 +15511,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 357.505 48.26 0)
+			(at 334.01 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15520,7 +15520,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 357.505 48.26 0)
+			(at 334.01 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15529,7 +15529,7 @@
 			)
 		)
 		(property "DigiKey" "P75.0CCT-ND"
-			(at 357.505 48.26 0)
+			(at 334.01 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15538,7 +15538,7 @@
 			)
 		)
 		(property "LCSC Part #" "C136912"
-			(at 357.505 48.26 0)
+			(at 334.01 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15547,7 +15547,7 @@
 			)
 		)
 		(property "MPN" "CRCW080575R0FKEAHP"
-			(at 357.505 48.26 0)
+			(at 334.01 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21705,7 +21705,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 334.645 48.26 90)
+		(at 358.14 48.26 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21714,7 +21714,7 @@
 		(dnp no)
 		(uuid "c81a5f9a-cdd2-4e7d-85ce-32d3714d6b05")
 		(property "Reference" "CE512"
-			(at 331.47 52.705 90)
+			(at 354.965 52.705 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21723,7 +21723,7 @@
 			)
 		)
 		(property "Value" "220uF"
-			(at 331.47 55.245 90)
+			(at 354.965 55.245 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21732,7 +21732,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 338.455 49.2252 0)
+			(at 361.95 49.2252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21741,7 +21741,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 334.645 48.26 0)
+			(at 358.14 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21750,7 +21750,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 334.645 48.26 0)
+			(at 358.14 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21759,7 +21759,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 334.645 48.26 0)
+			(at 358.14 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21768,7 +21768,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 334.645 48.26 0)
+			(at 358.14 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21777,7 +21777,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 334.645 48.26 0)
+			(at 358.14 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
