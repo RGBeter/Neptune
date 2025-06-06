@@ -24514,7 +24514,7 @@
 		(dnp no)
 		(uuid "32805e38-9a7d-42e6-8797-17e254df0050")
 		(property "Reference" "CE28"
-			(at 132.715 105.791 0)
+			(at 131.826 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24522,8 +24522,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
-			(at 132.715 108.331 0)
+		(property "Value" "47uF 10V"
+			(at 129.286 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25493,7 +25493,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "470uF"
+		(property "Value" "470uF 10V"
 			(at 244.475 234.95 0)
 			(effects
 				(font
@@ -30735,7 +30735,7 @@
 		(dnp no)
 		(uuid "a390de8e-60b3-4add-9349-fa1d4159e1c6")
 		(property "Reference" "CE27"
-			(at 116.84 105.791 0)
+			(at 117.348 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30743,8 +30743,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
-			(at 116.84 108.331 0)
+		(property "Value" "47uF 10V"
+			(at 120.142 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33677,7 +33677,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "100uF 10V"
 			(at 227.33 234.95 0)
 			(effects
 				(font
@@ -34819,7 +34819,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "47uF 10V"
 			(at 144.78 43.561 0)
 			(effects
 				(font
@@ -35068,7 +35068,7 @@
 		(dnp no)
 		(uuid "e8546da8-be0a-424e-aaab-5772809548d9")
 		(property "Reference" "CE509"
-			(at 162.56 113.411 0)
+			(at 162.814 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35076,8 +35076,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
-			(at 162.56 115.951 0)
+		(property "Value" "47uF 10V"
+			(at 165.608 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -11273,7 +11273,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF 16V"
 			(at 93.345 160.02 0)
 			(effects
 				(font
@@ -11748,7 +11748,7 @@
 		(dnp no)
 		(uuid "1bd28a73-eca1-44de-b807-89764692e53f")
 		(property "Reference" "CE506"
-			(at 144.78 103.505 90)
+			(at 145.034 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11756,8 +11756,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47uF"
-			(at 144.78 106.045 90)
+		(property "Value" "47uF 10V"
+			(at 142.24 97.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12457,7 +12457,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "100uF 10V"
 			(at 354.33 133.985 0)
 			(effects
 				(font
@@ -14266,7 +14266,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF 16V"
 			(at 139.065 146.685 0)
 			(effects
 				(font
@@ -18626,7 +18626,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF 16V"
 			(at 135.255 188.595 0)
 			(effects
 				(font
@@ -19330,8 +19330,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47uF"
-			(at 144.78 113.665 90)
+		(property "Value" "47uF 10V"
+			(at 141.732 113.792 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20871,7 +20871,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF 50V"
 			(at 342.9 117.475 90)
 			(effects
 				(font
@@ -21722,7 +21722,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "220uF"
+		(property "Value" "220uF 16V"
 			(at 354.965 55.245 90)
 			(effects
 				(font
@@ -23639,7 +23639,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "100uF 10V"
 			(at 199.39 52.07 0)
 			(effects
 				(font

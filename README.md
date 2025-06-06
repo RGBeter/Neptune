@@ -143,6 +143,12 @@ the smaller capacitors are prone to losing their metal end caps and, being so sm
 this is not always immediately apparent. If you see solder balling up instead of
 flowing nicely, this may well be the problem.
 
+Tolerances of original capacitors are unknown but 20% for electrolytic and 5% for
+SMD types is a good rule of thumb. If lower is available, even better. Any critical
+tolerances will be specified on the schematic/BOM. Capacitor voltages are stated
+where known. 0805 capacitors generally have a voltage rating of 50V or more, which
+is more than sufficient.
+
 
 ## Build Notes
 

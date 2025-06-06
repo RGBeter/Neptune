@@ -13913,7 +13913,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF 16V"
 			(at 97.155 58.42 90)
 			(effects
 				(font

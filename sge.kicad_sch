@@ -15460,7 +15460,7 @@
 		(dnp no)
 		(uuid "22957928-5e62-4408-91dd-e9f78ac48410")
 		(property "Reference" "C30"
-			(at 256.54 240.665 90)
+			(at 256.54 242.316 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15468,8 +15468,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 259.08 240.665 90)
+		(property "Value" "10uF 16V"
+			(at 259.08 242.316 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19235,7 +19235,7 @@
 		(dnp no)
 		(uuid "a56aea1f-6a6c-47f7-b0cb-3603d64be97c")
 		(property "Reference" "C29"
-			(at 270.51 240.665 90)
+			(at 270.51 242.316 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19243,8 +19243,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 273.05 240.665 90)
+		(property "Value" "10uF 16V"
+			(at 273.05 242.316 90)
 			(effects
 				(font
 					(size 1.27 1.27)

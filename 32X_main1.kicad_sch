@@ -7181,6 +7181,12 @@
 		(uuid "d438b7f1-8b45-493b-bdb2-5d3fb43aac19")
 	)
 	(junction
+		(at 232.41 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7f620d8-e325-4692-9962-4c7c41547957")
+	)
+	(junction
 		(at 272.415 151.765)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10131,16 +10137,6 @@
 		)
 		(uuid "661c4ac8-b15b-4cf4-915b-546f038c8736")
 	)
-	(wire
-		(pts
-			(xy 220.345 250.19) (xy 232.41 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66f5c8ae-4471-4a1b-ba31-a7b657c5b90b")
-	)
 	(bus
 		(pts
 			(xy 142.24 116.205) (xy 142.24 113.665)
@@ -10763,7 +10759,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.345 250.19) (xy 220.345 254)
+			(xy 232.41 250.19) (xy 232.41 254)
 		)
 		(stroke
 			(width 0)
@@ -10860,6 +10856,16 @@
 			(type default)
 		)
 		(uuid "8c7ed251-bac8-49d2-a294-ab2251b61d43")
+	)
+	(wire
+		(pts
+			(xy 232.41 250.19) (xy 220.345 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c8b1405-9345-417a-b1d6-d2105899ef7c")
 	)
 	(wire
 		(pts
@@ -16400,7 +16406,7 @@
 		(dnp no)
 		(uuid "67757169-884e-4525-b424-d610b1abdec0")
 		(property "Reference" "CE502"
-			(at 235.585 245.11 0)
+			(at 224.028 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16408,8 +16414,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 235.585 242.57 0)
+		(property "Value" "10uF 16V"
+			(at 233.68 246.126 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16488,7 +16494,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 220.345 254 0)
+		(at 232.41 254 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16497,7 +16503,7 @@
 		(fields_autoplaced yes)
 		(uuid "72c128fe-5e43-4889-a1f2-c8c2009717f2")
 		(property "Reference" "#PWR0182"
-			(at 220.345 260.35 0)
+			(at 232.41 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16506,7 +16512,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 220.345 258.445 0)
+			(at 232.41 258.445 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16514,7 +16520,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.345 254 0)
+			(at 232.41 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16523,7 +16529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.345 254 0)
+			(at 232.41 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16532,7 +16538,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.345 254 0)
+			(at 232.41 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
