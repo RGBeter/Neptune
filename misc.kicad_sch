@@ -35899,7 +35899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_DIP-14"
+		(property "Footprint" "Neptune:Oscillator_DIP-8-14"
 			(at 378.46 60.325 0)
 			(effects
 				(font
