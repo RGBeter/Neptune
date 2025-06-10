@@ -4378,6 +4378,12 @@
 		(uuid "de1acb9e-de09-4632-ba04-d14a9b48f997")
 	)
 	(junction
+		(at 231.14 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5aa0a2b-07d0-4935-9619-8f645f5f0a96")
+	)
+	(junction
 		(at 146.05 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5477,6 +5483,16 @@
 		)
 		(uuid "04f7975e-e0c2-43d5-bd95-d5dfc3dc9731")
 	)
+	(wire
+		(pts
+			(xy 231.14 115.57) (xy 231.14 117.475)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05279ac2-95a9-499b-aed5-833e47e405e1")
+	)
 	(bus
 		(pts
 			(xy 220.98 77.47) (xy 220.98 74.93)
@@ -6286,6 +6302,16 @@
 			(type default)
 		)
 		(uuid "3968c8a2-113a-483b-9fb6-0019209f2a77")
+	)
+	(wire
+		(pts
+			(xy 231.14 100.33) (xy 231.14 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3989ae75-4772-4686-ad7a-08ecf4bd87b1")
 	)
 	(wire
 		(pts
@@ -8719,7 +8745,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.965 100.33) (xy 233.045 100.33)
+			(xy 227.965 100.33) (xy 231.14 100.33)
 		)
 		(stroke
 			(width 0)
@@ -9086,6 +9112,16 @@
 			(type default)
 		)
 		(uuid "fed41ae2-b4d6-462f-87c6-c50b80e466d3")
+	)
+	(wire
+		(pts
+			(xy 231.14 100.33) (xy 233.045 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffd76b35-d5a2-470b-821d-2d504c1834f9")
 	)
 	(bus
 		(pts
@@ -13896,6 +13932,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 231.14 117.475 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de1bcb6a-5595-4265-a23a-fc1383556fbe")
+		(property "Reference" "#PWR045"
+			(at 231.14 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bc0b6bd-8142-489d-9fc3-e26341fd7023")
+		)
+		(instances
+			(project "Neptune"
+				(path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/48e60f61-77cc-4ea0-898f-0029aa970ca5"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 102.235 55.88 0)
 		(unit 1)
@@ -13986,6 +14088,103 @@
 			(project "Neptune"
 				(path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/48e60f61-77cc-4ea0-898f-0029aa970ca5"
 					(reference "CE20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 231.14 111.76 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7b5fea6-6bb4-4ad1-aa9b-5dcd7f8cbb3b")
+		(property "Reference" "C4"
+			(at 227.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "*"
+			(at 227.33 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 230.1748 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 231.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1854109"
+			(at 231.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "VJ0805A101FXJPW1BC"
+			(at 231.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1962d0e-a738-448d-9150-e5f72cd6e3b8")
+		)
+		(pin "2"
+			(uuid "52b6dc5e-46aa-4ade-b9f7-fcd36f00bde9")
+		)
+		(instances
+			(project "Neptune"
+				(path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/48e60f61-77cc-4ea0-898f-0029aa970ca5"
+					(reference "C4")
 					(unit 1)
 				)
 			)

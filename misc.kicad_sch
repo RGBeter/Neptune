@@ -29360,7 +29360,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150pF"
+		(property "Value" "*"
 			(at 29.845 94.615 0)
 			(effects
 				(font
