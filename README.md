@@ -30,9 +30,11 @@ are any outstanding fixes that should be applied to your particular board revisi
 | Issue          | Description                          | Affected Revisions  | Service Bulletin           |
 |----------------|--------------------------------------|---------------------|----------------------------|
 | [#3][Issue3]   | Region/version register instability. | <= r1.3 (Sept 2024) | [CSB_NEP_001][CSB_NEP_001] |
+| -              | Black screen after power-on reset.   | <= r1.3 (Sept 2024) | [CSB_NEP_002][CSB_NEP_002] |
 
 [Issue3]: https://github.com/Board-Folk/Neptune/issues/3
 [CSB_NEP_001]: https://raw.githubusercontent.com/Board-Folk/Neptune/master/service/CSB_NEP_001.pdf
+[CSB_NEP_002]: https://raw.githubusercontent.com/Board-Folk/Neptune/master/service/CSB_NEP_002.pdf
 
 
 ## Features and Limitations
