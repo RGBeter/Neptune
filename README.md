@@ -5,6 +5,8 @@ This project provides a PCB that combines the 32X and Mega Drive/Genesis 2 that 
 in an original Mega Drive/Genesis 2 case or the reimagined Neptune case designed by
 DVIZIX.
 
+[![Promo video][PromoVideoThumbnail]][PromoVideo]
+
 **NOTE**: In order to use these PCBs successfully you will need to be proficient in:
 
 * Soldering-fine pitched surface mount components.
@@ -298,3 +300,5 @@ of merchantability and fitness for a particular purpose.
 [ASICs]: https://consolemods.org/wiki/Genesis:ASIC_Information
 [240p]: https://junkerhq.net/xrgb/index.php?title=240p_test_suite
 [MachoNachoVideo]: https://youtu.be/PcP60-0NIEw
+[PromoVideo]: https://youtu.be/aF1uoOP9WqM
+[PromoVideoThumbnail]: https://raw.githubusercontent.com/Board-Folk/Neptune/master/img/neptune_thumbnail_play.jpg
