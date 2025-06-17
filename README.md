@@ -54,9 +54,14 @@ are any outstanding fixes that should be applied to your particular board revisi
 * Provisional support for Sega Master System games via integrated mod by DogP.\*
 * Compatible with the original Sega CD/Mega CD.\*\*
 * Not compatible with flash cart-based Sega CD/Mega CD implementations such as
-  the Mega EverDrive Pro.
+  the Mega EverDrive Pro. The Mega SD does how ever work when used in combination
+  with the MSDEXP expansion port adapter (thanks to Bob from [RetroRGB](https://www.retrorgb.com/)
+  for [testing this live][RetroRGBCDVideo]).
 * As the 32X hardware is integrated into the design, there is NO way to disable this.
 * No mono audio output.
+* No Dual Frequency Oscillator (DSO) is built in but, should you opt to install
+  one that fits in the original oscillator footprint, a pad for the PAL/NTSC
+  switching signal is provided close by.
 
 \* Master System compatibility is not extensively tested. Original cartridges have
 been shown to work when using simple pass-through adapters. Using Mega Drive flash
@@ -182,6 +187,11 @@ is more than sufficient.
   removing the ICs from the donor boards. The legend silkscreen on the board *should*
   match that on the IC but this may not always be a reliable indicator of orientation.
 
+* Similarly, there are two different sizes of oscillator package and the footprint has
+  holes to mount either size. If using the smaller DIP-8 size, observe the correct
+  location of pin 1 in the middle of the footprint and install the oscillator towards
+  `IC6` as indicated by the arrows.
+
 * Clean all boards thoroughly with e.g. isopropyl alcohol prior to starting.
   Especially HASL boards from JLC have been known to arrive with some contaminants
   present which prevent reliable solder joints. You may even like to tin the SMD
@@ -302,3 +312,4 @@ of merchantability and fitness for a particular purpose.
 [MachoNachoVideo]: https://youtu.be/PcP60-0NIEw
 [PromoVideo]: https://youtu.be/aF1uoOP9WqM
 [PromoVideoThumbnail]: https://raw.githubusercontent.com/Board-Folk/Neptune/master/img/neptune_thumbnail_play.jpg
+[RetroRGBCDVideo]: https://youtube.com/live/Pf0_TwquWg0
