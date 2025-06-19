@@ -87,9 +87,14 @@ any such modification will require the trace between +5V and +9V be cut.
 
 Minimum track widths, clearances and via sizes are within the standard
 offering of modern PCB fabricators. Gerber files are generated with the relevant
-options for [JLCPCB](https://jlcpcb.com/). Placeholders for the order number are
+options for [JLCPCB](https://jlcpcb.com/) (included in the "Assets" section of
+the individual [releases][Releases]). Placeholders for the order number are
 provided so remember to select the "Specify location" option for this when ordering.
 If using another service you may wish to remove or replace this placeholder.
+If using PCBWay, please consider using this [shared project][PCBWayProject] for
+which a percentage of the order amount is credited to the author. (However, if you
+really want to contribute, a less expensive PCB service and a donation via
+[Ko-fi][Ko-fi] works out better for all involved!)
 
 The design is verified to work as a 4-layer PCB with 1 oz outer and 1/2 oz inner
 layers. The intended layer order is Front, In1, In2, Back. A leaded HASL finish is
@@ -316,3 +321,5 @@ of merchantability and fitness for a particular purpose.
 [PromoVideo]: https://youtu.be/aF1uoOP9WqM
 [PromoVideoThumbnail]: https://raw.githubusercontent.com/Board-Folk/Neptune/master/img/neptune_thumbnail_play.jpg
 [RetroRGBCDVideo]: https://youtube.com/live/Pf0_TwquWg0
+[PCBWayProject]: https://www.pcbway.com/project/shareproject/Neptune_console_f136d0e3.html
+[Ko-fi]: https://ko-fi.com/cosam
