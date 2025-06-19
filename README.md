@@ -111,8 +111,8 @@ info below in the build notes).
 ## Bill of Materials
 
 For a complete BOM, consult the KiCad project itself. For assembly you may wish
-to use the generated [Interactive BOM][IBOM] but this is not as detailed (use
-the `ibom.html` file in the "Assets" section of [your board's release][Releases]).
+to use the generated Interactive BOM but this is not as detailed (use the
+`ibom.html` file in the "Assets" section of [your board's release][Releases]).
 
 Parts are numbered according to the following scheme:
 
@@ -311,7 +311,6 @@ The resources are provided "as-is" without warranty of any kind, either
 expressed or implied, including, but not limited to, the implied warranties
 of merchantability and fitness for a particular purpose.
 
-[IBOM]: http://htmlpreview.github.io/?https://raw.githubusercontent.com/Board-Folk/Neptune/master/bom/ibom.html
 [Releases]: https://github.com/Board-Folk/Neptune/releases
 [Switchless]: https://github.com/atomicretronl/switchless
 [Revisions]: https://segaretro.org/Sega_Mega_Drive/Hardware_revisions
