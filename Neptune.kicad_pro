@@ -524,7 +524,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "neptune_gerbers_pcbway-1.4",
+      "plot": "neptune_gerbers-1.5",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Neptune.step",
