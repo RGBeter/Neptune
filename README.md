@@ -1,8 +1,4 @@
-Work in progress: Update to the neptune attempting to make it easier for PCBA, and enable some additional mods, the final product would be MUCH more difficult to solder by hand, using 0402 coomponents when possible.
-
 # Neptune 32X/MD2
-
-
 
 The Sega Neptune was an unreleased console that would have been a stand-alone 32X.
 This project provides a PCB that combines the 32X and Mega Drive/Genesis 2 that fits

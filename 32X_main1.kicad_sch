@@ -5833,174 +5833,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:FerriteBead_Small"
 			(pin_numbers
 				(hide yes)
@@ -6907,51 +6739,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 40.64 45.72)
-		(end 103.505 142.24)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid aa3a8f96-1122-4b42-9052-80931c7a83e0)
-	)
-	(text "(Bridge for other)"
-		(exclude_from_sim no)
-		(at 109.855 193.675 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4de69eed-3ad7-4ca5-9b25-0803d3324756")
-	)
-	(text "VA1 ONLY"
-		(exclude_from_sim no)
-		(at 91.44 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f925761-defe-4166-a4dd-7b713bad56af")
-	)
-	(text "THT bodges on later 32X main\nboards with SCA chip. If your\ndonor has this, CUT THE TRACE\nbefore installing the diode here.\nOtherwise leave bridge intact."
-		(exclude_from_sim no)
-		(at 97.79 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83dd1e4d-c5c0-4a47-8ffa-f4bd06ba6e26")
-	)
 	(junction
 		(at 96.52 99.06)
 		(diameter 0)
@@ -6987,12 +6774,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0fbb66be-4248-49e2-96ff-9632bf7844e6")
-	)
-	(junction
-		(at 131.445 184.785)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1027bee4-b902-47f9-ad55-8e0e9f50f242")
 	)
 	(junction
 		(at 96.52 67.945)
@@ -7121,10 +6902,10 @@
 		(uuid "8e40d725-d04a-4207-a800-37cdcf82b67f")
 	)
 	(junction
-		(at 108.585 184.785)
+		(at 114.3 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "90126e74-3416-492e-9860-842140692eda")
+		(uuid "9b68dbd6-50e6-44da-8ba2-f5bc8d54fa90")
 	)
 	(junction
 		(at 203.835 177.165)
@@ -7203,12 +6984,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec16beab-d178-47b0-a8f8-8fe69f751280")
-	)
-	(junction
-		(at 108.585 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "efab8068-fe6d-4710-8e4c-fe3c95627eca")
 	)
 	(junction
 		(at 266.7 172.085)
@@ -8519,7 +8294,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.775 184.785) (xy 108.585 184.785)
+			(xy 104.14 167.64) (xy 114.3 167.64)
 		)
 		(stroke
 			(width 0)
@@ -9296,26 +9071,6 @@
 			(type default)
 		)
 		(uuid "2f20632c-57cd-450d-8a84-6a3d769def32")
-	)
-	(wire
-		(pts
-			(xy 121.92 184.785) (xy 131.445 184.785)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f2d5cfa-4c9b-44d4-a177-854c40b5cf70")
-	)
-	(wire
-		(pts
-			(xy 108.585 184.785) (xy 114.3 184.785)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30e11dcb-0b17-41fc-ad4b-8f60ccf31146")
 	)
 	(bus
 		(pts
@@ -10479,7 +10234,7 @@
 	)
 	(wire
 		(pts
-			(xy 131.445 159.385) (xy 131.445 184.785)
+			(xy 130.81 159.385) (xy 130.81 167.64)
 		)
 		(stroke
 			(width 0)
@@ -10746,6 +10501,16 @@
 			(type default)
 		)
 		(uuid "86b1a8a4-5dd6-46b2-a31f-5acc0d210534")
+	)
+	(wire
+		(pts
+			(xy 114.3 176.53) (xy 114.3 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "871680ed-a7f1-42a0-980c-71ed12dd3762")
 	)
 	(wire
 		(pts
@@ -11429,7 +11194,7 @@
 	)
 	(wire
 		(pts
-			(xy 108.585 190.5) (xy 108.585 184.785)
+			(xy 114.3 167.64) (xy 114.3 168.91)
 		)
 		(stroke
 			(width 0)
@@ -11809,7 +11574,7 @@
 	)
 	(wire
 		(pts
-			(xy 131.445 159.385) (xy 161.29 159.385)
+			(xy 130.81 159.385) (xy 161.29 159.385)
 		)
 		(stroke
 			(width 0)
@@ -12169,16 +11934,6 @@
 	)
 	(wire
 		(pts
-			(xy 108.585 202.565) (xy 108.585 206.375)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4959dce-2085-41fb-86f2-281bc7d38884")
-	)
-	(wire
-		(pts
 			(xy 234.315 90.805) (xy 225.425 90.805)
 		)
 		(stroke
@@ -12256,16 +12011,6 @@
 			(type default)
 		)
 		(uuid "d9bedf1a-6867-4bca-8329-1822c670fd24")
-	)
-	(wire
-		(pts
-			(xy 131.445 184.785) (xy 131.445 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9d80255-231a-42ce-9b4f-30293b3a95d2")
 	)
 	(wire
 		(pts
@@ -12629,16 +12374,6 @@
 	)
 	(wire
 		(pts
-			(xy 108.585 190.5) (xy 108.585 194.945)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1de5fb4-8c3d-49d1-ac65-59405fa91d08")
-	)
-	(wire
-		(pts
 			(xy 207.645 238.125) (xy 220.345 238.125)
 		)
 		(stroke
@@ -12779,7 +12514,7 @@
 	)
 	(wire
 		(pts
-			(xy 131.445 190.5) (xy 108.585 190.5)
+			(xy 130.81 167.64) (xy 114.3 167.64)
 		)
 		(stroke
 			(width 0)
@@ -14517,7 +14252,7 @@
 	)
 	(global_label "~{VRES}"
 		(shape input)
-		(at 104.775 184.785 180)
+		(at 104.14 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14527,7 +14262,7 @@
 		)
 		(uuid "6b9b45d6-c9be-4ff5-a99e-6e06c57ac6e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.0727 184.785 0)
+			(at 96.4377 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14939,7 +14674,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 51.308 125.73 90)
 			(effects
 				(font
@@ -15166,7 +14901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 196.5452 247.65 0)
 			(effects
 				(font
@@ -15395,7 +15130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 195.9102 187.325 0)
 			(effects
 				(font
@@ -15796,7 +15531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 273.3802 165.1 0)
 			(effects
 				(font
@@ -15892,7 +15627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 283.5402 165.1 0)
 			(effects
 				(font
@@ -15963,7 +15698,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 108.585 198.755 0)
+		(at 114.3 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15971,7 +15706,7 @@
 		(dnp no)
 		(uuid "4f7feb4c-6703-481c-8323-ebaf4a376e5d")
 		(property "Reference" "C695"
-			(at 102.87 196.215 0)
+			(at 108.585 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15980,16 +15715,17 @@
 			)
 		)
 		(property "Value" "SCA only"
-			(at 110.49 201.93 0)
+			(at 116.205 175.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 109.5502 202.565 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 115.2652 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15998,7 +15734,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 108.585 198.755 0)
+			(at 114.3 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16007,7 +15743,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 108.585 198.755 0)
+			(at 114.3 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16016,7 +15752,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 108.585 198.755 0)
+			(at 114.3 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16025,7 +15761,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 108.585 198.755 0)
+			(at 114.3 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16034,7 +15770,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 108.585 198.755 0)
+			(at 114.3 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16278,119 +16014,6 @@
 			(project "Neptune"
 				(path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/a9caee2e-423b-443e-a11f-5841882e2685"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 118.11 184.785 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "66348d97-5272-4425-8bb2-ff050d295559")
-		(property "Reference" "D699"
-			(at 118.11 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SCA only"
-			(at 118.11 188.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 118.11 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 118.11 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 118.11 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" ""
-			(at 118.11 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 118.11 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 118.11 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50af7c18-04a3-436e-b350-1496b2bae308")
-		)
-		(pin "2"
-			(uuid "39fbd271-e9fe-426d-88fa-640b01608cf0")
-		)
-		(instances
-			(project "Neptune"
-				(path "/bcc23b51-b742-4ae5-9dd6-d96a24058944/a9caee2e-423b-443e-a11f-5841882e2685"
-					(reference "D699")
 					(unit 1)
 				)
 			)
@@ -17345,7 +16968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 88.265 236.093 90)
 			(effects
 				(font
@@ -17416,7 +17039,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 108.585 206.375 0)
+		(at 114.3 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17425,7 +17048,7 @@
 		(fields_autoplaced yes)
 		(uuid "a682f86e-e589-4b83-a62e-4ba405865278")
 		(property "Reference" "#PWR091"
-			(at 108.585 212.725 0)
+			(at 114.3 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17434,7 +17057,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 108.585 210.82 0)
+			(at 114.3 184.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17442,7 +17065,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 108.585 206.375 0)
+			(at 114.3 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17451,7 +17074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 108.585 206.375 0)
+			(at 114.3 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17460,7 +17083,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 108.585 206.375 0)
+			(at 114.3 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17685,7 +17308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.055 249.428 90)
 			(effects
 				(font
